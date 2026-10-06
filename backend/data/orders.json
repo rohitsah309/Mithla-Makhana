@@ -104,17 +104,22 @@
     "orderId": "MM-2026-5910",
     "invoiceNumber": "INV-2026-5910",
     "invoiceDate": "2026-10-05T15:04:22.206Z",
-    "orderStatus": "Order Placed",
+    "orderStatus": "Confirmed",
     "paymentStatus": "pending",
     "statusHistory": [
       {
         "status": "Order Placed",
         "timestamp": "2026-10-05T15:04:22.206Z",
         "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Confirmed",
+        "timestamp": "2026-10-06T06:44:16.775Z",
+        "notes": "Status updated by Admin Mithla Makhana"
       }
     ],
     "createdAt": "2026-10-05T15:04:22.206Z",
-    "updatedAt": "2026-10-05T15:04:22.206Z",
+    "updatedAt": "2026-10-06T06:44:16.775Z",
     "user": "usr_customer_01",
     "customer": {
       "name": "Talha Khan",
