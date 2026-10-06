@@ -731,6 +731,8 @@ const AdminDashboard = () => {
     }
   };
 
+
+  
   // Open Edit Role Modal (Super Administrator Only)
   const handleOpenEditRoleModal = (adm) => {
     if (!isSuperAdmin) {
@@ -1284,7 +1286,7 @@ const AdminDashboard = () => {
       {mobileSidebarOpen && (
         <div 
           onClick={() => setMobileSidebarOpen(false)}
-          className="fixed inset-0 bg-black/60 backdrop-blur-xs z-40 md:hidden"
+          className="fixed inset-0 z-40 bg-black/60 backdrop-blur-xs md:hidden"
         />
       )}
 
@@ -1300,7 +1302,7 @@ const AdminDashboard = () => {
                 <img 
                   src="/images/plain-makhana-bowl.png" 
                   alt="Mithila Makhana Motif" 
-                  className="w-full h-full object-cover rounded-full"
+                  className="object-cover w-full h-full rounded-full"
                 />
               </div>
               <div>
@@ -1405,7 +1407,7 @@ const AdminDashboard = () => {
       {/* =========================================================================
           MAIN CONTENT AREA (Right of Sidepanel)
           ========================================================================= */}
-      <main className="md:pl-64 lg:pl-72 flex-1 flex flex-col min-h-screen">
+      <main className="flex flex-col flex-1 min-h-screen md:pl-64 lg:pl-72">
         
         {/* Top Header Bar */}
         <header className="sticky top-0 z-30 bg-[#FAF6F0]/95 backdrop-blur-md border-b border-[#E8DEC9] px-4 sm:px-8 py-3.5 flex items-center justify-between">
@@ -1470,7 +1472,7 @@ const AdminDashboard = () => {
               }`}
             >
               <Tag className="w-4 h-4 text-[#D99B26]" />
-              <span className="hidden sm:inline text-xs font-bold">Coupons</span>
+              <span className="hidden text-xs font-bold sm:inline">Coupons</span>
             </button>
 
             {/* Quick Add Makhana */}
@@ -1485,16 +1487,16 @@ const AdminDashboard = () => {
         </header>
 
         {/* Dynamic Tab Content Views */}
-        <div className="p-4 sm:p-8 space-y-8 flex-1">
+        <div className="flex-1 p-4 space-y-8 sm:p-8">
 
           {/* =========================================================================
               VIEW 1: DASHBOARD
               ========================================================================= */}
           {activeTab === 'dashboard' && (
-            <div className="space-y-8 animate-in fade-in duration-200">
+            <div className="space-y-8 duration-200 animate-in fade-in">
               
               {/* Executive Summary Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 sm:gap-6">
                 
                 {/* Total Revenue */}
                 <div className="bg-white rounded-3xl p-5 border border-[#E8DEC9] shadow-soft space-y-3">
@@ -1544,7 +1546,7 @@ const AdminDashboard = () => {
                   <div className="flex items-center justify-between text-[11px] text-[#6D4A32] pt-1 border-t border-gray-100">
                     <span>Flavours: <strong>{products.length}</strong></span>
                     {lowStockProducts.length > 0 ? (
-                      <span className="text-red-600 font-bold">⚠️ {lowStockProducts.length} low stock</span>
+                      <span className="font-bold text-red-600">⚠️ {lowStockProducts.length} low stock</span>
                     ) : (
                       <span className="text-[#2D5A27] font-bold">All stock healthy</span>
                     )}
@@ -1673,7 +1675,7 @@ const AdminDashboard = () => {
                 </div>
 
                 {/* Selected Period High-Level Performance Metrics */}
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
                   <div className="p-4 rounded-2xl bg-[#FAF6F0] border border-[#E8DEC9] space-y-1">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-[#8A6D56]">Total Revenue</span>
                     <div className="text-xl sm:text-2xl font-bold text-[#4A2E1B]">₹{selectedPeriodTotals.totalRev.toLocaleString('en-IN')}</div>
@@ -1740,7 +1742,7 @@ const AdminDashboard = () => {
                             const codPercent = item.revenue > 0 ? (item.codRevenue / item.revenue) * 100 : 50;
 
                             return (
-                              <div key={item.key || item.year} className="flex-1 flex flex-col items-center h-full justify-end group">
+                              <div key={item.key || item.year} className="flex flex-col items-center justify-end flex-1 h-full group">
                                 {/* Value tooltip on hover / top label */}
                                 <div className="text-[10px] font-bold text-[#4A2E1B] mb-1 group-hover:text-[#D99B26] transition-colors whitespace-nowrap">
                                   ₹{item.revenue >= 1000 ? `${(item.revenue / 1000).toFixed(1)}k` : item.revenue}
@@ -1790,7 +1792,7 @@ const AdminDashboard = () => {
                   </div>
 
                   <div className="overflow-x-auto rounded-2xl border border-[#E8DEC9]">
-                    <table className="w-full text-left text-xs border-collapse">
+                    <table className="w-full text-xs text-left border-collapse">
                       <thead>
                         <tr className="border-b border-[#4A2E1B]/30 bg-[#FAF6F0] text-[#4A2E1B]">
                           <th className="py-3 px-3.5 font-bold">{analyticsViewMode === 'months' ? 'Month & Year' : 'Financial Year'}</th>
@@ -1875,7 +1877,7 @@ const AdminDashboard = () => {
                   <span className="text-xs text-[#8A6D56]">Live breakdown across active stages</span>
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 pt-1">
+                <div className="grid grid-cols-2 gap-2 pt-1 sm:grid-cols-4 lg:grid-cols-8">
                   {ORDER_STATUS_OPTIONS.map((status) => {
                     const count = orders.filter(o => o.orderStatus === status).length;
                     return (
@@ -1927,16 +1929,16 @@ const AdminDashboard = () => {
                   <div className="p-8 text-center text-xs text-[#8A6D56]">No customer orders recorded yet.</div>
                 ) : (
                   <div className="overflow-x-auto">
-                    <table className="w-full text-left text-xs border-collapse">
+                    <table className="w-full text-xs text-left border-collapse">
                       <thead>
                         <tr className="border-b-2 border-[#4A2E1B] bg-[#FAF6F0] text-[#4A2E1B]">
-                          <th className="py-3 px-3 font-bold">Order ID</th>
-                          <th className="py-3 px-3 font-bold">Customer</th>
-                          <th className="py-3 px-3 font-bold">Items</th>
-                          <th className="py-3 px-3 font-bold">Total</th>
-                          <th className="py-3 px-3 font-bold">Payment</th>
-                          <th className="py-3 px-3 font-bold">Status</th>
-                          <th className="py-3 px-3 font-bold text-right">Actions</th>
+                          <th className="px-3 py-3 font-bold">Order ID</th>
+                          <th className="px-3 py-3 font-bold">Customer</th>
+                          <th className="px-3 py-3 font-bold">Items</th>
+                          <th className="px-3 py-3 font-bold">Total</th>
+                          <th className="px-3 py-3 font-bold">Payment</th>
+                          <th className="px-3 py-3 font-bold">Status</th>
+                          <th className="px-3 py-3 font-bold text-right">Actions</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-[#E8DEC9]">
@@ -1945,7 +1947,7 @@ const AdminDashboard = () => {
                             <td className="py-3 px-3 font-mono font-bold text-[#4A2E1B]">
                               #{ord.orderId || ord._id}
                             </td>
-                            <td className="py-3 px-3">
+                            <td className="px-3 py-3">
                               <div className="font-bold text-[#4A2E1B]">{ord.shippingAddress?.fullName || ord.customer?.name}</div>
                               <div className="text-[10px] text-[#8A6D56]">{ord.shippingAddress?.city}, {ord.shippingAddress?.state}</div>
                             </td>
@@ -1955,7 +1957,7 @@ const AdminDashboard = () => {
                             <td className="py-3 px-3 font-bold text-[#4A2E1B]">
                               ₹{ord.total}
                             </td>
-                            <td className="py-3 px-3">
+                            <td className="px-3 py-3">
                               <span className={`inline-block px-2 py-0.5 rounded-full text-[10px] font-bold ${
                                 ord.paymentMethod === 'razorpay'
                                   ? 'bg-[#EAF3E7] text-[#2D5A27] border border-[#2D5A27]/20'
@@ -1966,7 +1968,7 @@ const AdminDashboard = () => {
                                 {ord.paymentMethod === 'razorpay' ? 'Razorpay' : (ord.paymentStatus === 'completed' ? 'COD (Paid)' : 'COD (Due)')}
                               </span>
                             </td>
-                            <td className="py-3 px-3">
+                            <td className="px-3 py-3">
                               <select
                                 value={ord.orderStatus}
                                 onChange={(e) => handleUpdateOrderStatus(ord.orderId || ord._id, e.target.value)}
@@ -1977,7 +1979,7 @@ const AdminDashboard = () => {
                                 ))}
                               </select>
                             </td>
-                            <td className="py-3 px-3 text-right">
+                            <td className="px-3 py-3 text-right">
                               <div className="inline-flex items-center space-x-1">
                                 <button
                                   onClick={() => setViewingOrderDetail(ord)}
@@ -2010,10 +2012,10 @@ const AdminDashboard = () => {
               VIEW: ORDERS (Full Order Fulfillment & Order Lifecycle Section)
               ========================================================================= */}
           {activeTab === 'orders' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
+            <div className="space-y-6 duration-200 animate-in fade-in">
               
               {/* Order Fulfillment KPI Metric Cards */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
                 <div 
                   onClick={() => setOrderStatusFilter('all')}
                   className={`bg-white rounded-3xl p-5 border cursor-pointer transition-all ${
@@ -2021,7 +2023,7 @@ const AdminDashboard = () => {
                   }`}
                 >
                   <div className="flex items-center justify-between text-[#8A6D56]">
-                    <span className="text-xs font-bold uppercase tracking-wider">Total Orders</span>
+                    <span className="text-xs font-bold tracking-wider uppercase">Total Orders</span>
                     <ShoppingBag className="w-4 h-4 text-[#D99B26]" />
                   </div>
                   <div className="text-2xl sm:text-3xl font-bold text-[#4A2E1B] mt-2">{orders.length}</div>
@@ -2035,7 +2037,7 @@ const AdminDashboard = () => {
                   }`}
                 >
                   <div className="flex items-center justify-between text-[#8A6D56]">
-                    <span className="text-xs font-bold uppercase tracking-wider">In Progress</span>
+                    <span className="text-xs font-bold tracking-wider uppercase">In Progress</span>
                     <Clock className="w-4 h-4 text-[#B07812]" />
                   </div>
                   <div className="text-2xl sm:text-3xl font-bold text-[#B07812] mt-2">{inProgressCount}</div>
@@ -2049,7 +2051,7 @@ const AdminDashboard = () => {
                   }`}
                 >
                   <div className="flex items-center justify-between text-[#8A6D56]">
-                    <span className="text-xs font-bold uppercase tracking-wider">In Transit</span>
+                    <span className="text-xs font-bold tracking-wider uppercase">In Transit</span>
                     <Truck className="w-4 h-4 text-[#2D5A27]" />
                   </div>
                   <div className="text-2xl sm:text-3xl font-bold text-[#2D5A27] mt-2">{inTransitCount}</div>
@@ -2063,7 +2065,7 @@ const AdminDashboard = () => {
                   }`}
                 >
                   <div className="flex items-center justify-between text-[#8A6D56]">
-                    <span className="text-xs font-bold uppercase tracking-wider">Delivered</span>
+                    <span className="text-xs font-bold tracking-wider uppercase">Delivered</span>
                     <CheckCircle2 className="w-4 h-4 text-[#2D5A27]" />
                   </div>
                   <div className="text-2xl sm:text-3xl font-bold text-[#2D5A27] mt-2">{deliveredCount}</div>
@@ -2075,7 +2077,7 @@ const AdminDashboard = () => {
               <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-4">
                 
                 {/* Search Bar & Payment Filter Header */}
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="flex flex-col justify-between gap-4 md:flex-row md:items-center">
                   <div className="relative flex-1 max-w-md">
                     <Search className="w-4 h-4 text-[#8A6D56] absolute left-3.5 top-1/2 -translate-y-1/2" />
                     <input
@@ -2189,29 +2191,29 @@ const AdminDashboard = () => {
                 {/* Orders Management Table */}
                 <div className="overflow-x-auto">
                   {filteredOrders.length === 0 ? (
-                    <div className="p-12 text-center space-y-3">
+                    <div className="p-12 space-y-3 text-center">
                       <ShoppingBag className="w-10 h-10 text-[#8A6D56]/40 mx-auto" />
                       <p className="text-sm font-bold text-[#4A2E1B]">No matching customer orders found</p>
                       <p className="text-xs text-[#8A6D56]">Try clearing the search query or selecting a different fulfillment status.</p>
                     </div>
                   ) : (
-                    <table className="w-full text-left text-xs border-collapse">
+                    <table className="w-full text-xs text-left border-collapse">
                       <thead>
                         <tr className="border-b-2 border-[#4A2E1B] bg-[#FAF6F0] text-[#4A2E1B]">
-                          <th className="py-3 px-3 font-bold">Order ID</th>
-                          <th className="py-3 px-3 font-bold">Customer & Delivery Details</th>
-                          <th className="py-3 px-3 font-bold">Purchased Items</th>
-                          <th className="py-3 px-3 font-bold">Total Amount</th>
-                          <th className="py-3 px-3 font-bold">Payment Method & Status</th>
-                          <th className="py-3 px-3 font-bold">Fulfillment Status</th>
-                          <th className="py-3 px-3 font-bold">Order Date</th>
-                          <th className="py-3 px-3 font-bold text-right">Actions</th>
+                          <th className="px-3 py-3 font-bold">Order ID</th>
+                          <th className="px-3 py-3 font-bold">Customer & Delivery Details</th>
+                          <th className="px-3 py-3 font-bold">Purchased Items</th>
+                          <th className="px-3 py-3 font-bold">Total Amount</th>
+                          <th className="px-3 py-3 font-bold">Payment Method & Status</th>
+                          <th className="px-3 py-3 font-bold">Fulfillment Status</th>
+                          <th className="px-3 py-3 font-bold">Order Date</th>
+                          <th className="px-3 py-3 font-bold text-right">Actions</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-[#E8DEC9]">
                         {filteredOrders.map((ord) => (
                           <tr key={ord._id || ord.orderId} className="hover:bg-[#FAF6F0]/50 transition-colors">
-                            <td className="py-3 px-3">
+                            <td className="px-3 py-3">
                               <button
                                 onClick={() => setViewingOrderDetail(ord)}
                                 className="font-mono font-bold text-[#4A2E1B] hover:text-[#D99B26] hover:underline cursor-pointer flex items-center space-x-1"
@@ -2220,7 +2222,7 @@ const AdminDashboard = () => {
                               </button>
                             </td>
 
-                            <td className="py-3 px-3">
+                            <td className="px-3 py-3">
                               <div className="font-bold text-[#4A2E1B]">
                                 {ord.shippingAddress?.fullName || ord.customer?.name}
                               </div>
@@ -2233,7 +2235,7 @@ const AdminDashboard = () => {
                               </div>
                             </td>
 
-                            <td className="py-3 px-3 max-w-xs">
+                            <td className="max-w-xs px-3 py-3">
                               <div className="space-y-1">
                                 {ord.items?.map((it, idx) => (
                                   <div key={idx} className="flex items-center space-x-1.5 text-[11px] text-[#6D4A32]">
@@ -2244,14 +2246,14 @@ const AdminDashboard = () => {
                               </div>
                             </td>
 
-                            <td className="py-3 px-3">
+                            <td className="px-3 py-3">
                               <div className="font-bold text-sm text-[#4A2E1B]">₹{ord.total}</div>
                               <div className="text-[10px] text-[#8A6D56]">
                                 {ord.items?.reduce((sum, i) => sum + (i.quantity || 1), 0)} items total
                               </div>
                             </td>
 
-                            <td className="py-3 px-3">
+                            <td className="px-3 py-3">
                               <div className="space-y-1.5">
                                 <span className={`inline-block px-2.5 py-0.5 rounded-full text-[10px] font-bold ${
                                   ord.paymentMethod === 'razorpay'
@@ -2286,7 +2288,7 @@ const AdminDashboard = () => {
                               </div>
                             </td>
 
-                            <td className="py-3 px-3">
+                            <td className="px-3 py-3">
                               <select
                                 value={ord.orderStatus}
                                 onChange={(e) => handleUpdateOrderStatus(ord.orderId || ord._id, e.target.value)}
@@ -2322,7 +2324,7 @@ const AdminDashboard = () => {
                               </div>
                             </td>
 
-                            <td className="py-3 px-3 text-right">
+                            <td className="px-3 py-3 text-right">
                               <div className="inline-flex items-center space-x-1.5">
                                 <button
                                   onClick={() => setViewingOrderDetail(ord)}
@@ -2357,7 +2359,7 @@ const AdminDashboard = () => {
               VIEW: TRACK SHIPMENTS & ORDERS
               ========================================================================= */}
           {activeTab === 'tracking' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
+            <div className="space-y-6 duration-200 animate-in fade-in">
               
               {/* Shipment Metrics Cards */}
               <div className="grid grid-cols-2 lg:grid-cols-5 gap-3.5 sm:gap-4">
@@ -2379,7 +2381,7 @@ const AdminDashboard = () => {
 
                 <div className="bg-white rounded-2xl p-4 border border-[#E8DEC9] shadow-soft">
                   <span className="text-[10px] font-bold text-blue-700 uppercase tracking-wider block">Out for Delivery</span>
-                  <p className="text-2xl font-bold font-serif text-blue-800 mt-1">
+                  <p className="mt-1 font-serif text-2xl font-bold text-blue-800">
                     {orders.filter((o) => o.orderStatus === 'Out for Delivery').length}
                   </p>
                   <span className="text-[10px] text-blue-600 flex items-center mt-0.5">
@@ -2399,7 +2401,7 @@ const AdminDashboard = () => {
 
                 <div className="bg-white rounded-2xl p-4 border border-[#E8DEC9] shadow-soft col-span-2 lg:col-span-1">
                   <span className="text-[10px] font-bold text-amber-800 uppercase tracking-wider block">Pending Packing</span>
-                  <p className="text-2xl font-bold font-serif text-amber-700 mt-1">
+                  <p className="mt-1 font-serif text-2xl font-bold text-amber-700">
                     {orders.filter((o) => ['Order Placed', 'Confirmed'].includes(o.orderStatus)).length}
                   </p>
                   <span className="text-[10px] text-amber-700">Awaiting dispatch</span>
@@ -2408,7 +2410,7 @@ const AdminDashboard = () => {
 
               {/* Top Controls: Search & Status Filters */}
               <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-4">
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="flex flex-col justify-between gap-4 md:flex-row md:items-center">
                   <div>
                     <h3 className="font-serif text-xl font-bold text-[#4A2E1B] flex items-center space-x-2">
                       <Truck className="w-5 h-5 text-[#D99B26]" />
@@ -2432,7 +2434,7 @@ const AdminDashboard = () => {
                     {trackingSearch && (
                       <button
                         onClick={() => setTrackingSearch('')}
-                        className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 text-xs"
+                        className="absolute text-xs text-gray-400 -translate-y-1/2 right-3 top-1/2 hover:text-gray-600"
                       >
                         ✕
                       </button>
@@ -2552,15 +2554,15 @@ const AdminDashboard = () => {
                 </div>
 
                 <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs border-collapse">
+                  <table className="w-full text-xs text-left border-collapse">
                     <thead>
                       <tr className="border-b-2 border-[#4A2E1B] bg-[#FAF6F0] text-[#4A2E1B]">
-                        <th className="py-3 px-3 font-bold">Order ID</th>
-                        <th className="py-3 px-3 font-bold">Recipient & Destination</th>
-                        <th className="py-3 px-3 font-bold">Package Details</th>
-                        <th className="py-3 px-3 font-bold">Assigned Courier & AWB</th>
-                        <th className="py-3 px-3 font-bold text-center">Milestone Status</th>
-                        <th className="py-3 px-3 font-bold text-right">Tracking Actions</th>
+                        <th className="px-3 py-3 font-bold">Order ID</th>
+                        <th className="px-3 py-3 font-bold">Recipient & Destination</th>
+                        <th className="px-3 py-3 font-bold">Package Details</th>
+                        <th className="px-3 py-3 font-bold">Assigned Courier & AWB</th>
+                        <th className="px-3 py-3 font-bold text-center">Milestone Status</th>
+                        <th className="px-3 py-3 font-bold text-right">Tracking Actions</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-[#E8DEC9]">
@@ -2607,7 +2609,7 @@ const AdminDashboard = () => {
                               </td>
 
                               {/* Package Details */}
-                              <td className="py-3 px-3">
+                              <td className="px-3 py-3">
                                 <span className="font-bold text-[#4A2E1B]">₹{Number(ord.total || 0).toLocaleString('en-IN')}</span>
                                 <span className="block text-[10px] text-[#8A6D56]">
                                   {ord.items?.length || 1} product(s)
@@ -2626,7 +2628,7 @@ const AdminDashboard = () => {
                               </td>
 
                               {/* Milestone Status */}
-                              <td className="py-3 px-3 text-center">
+                              <td className="px-3 py-3 text-center">
                                 <span className={`inline-flex items-center space-x-1 px-2.5 py-1 rounded-full text-[10px] font-bold border ${
                                   isDelivered
                                     ? 'bg-[#EAF3E7] text-[#2D5A27] border-[#2D5A27]/20'
@@ -2642,7 +2644,7 @@ const AdminDashboard = () => {
                               </td>
 
                               {/* Tracking Actions */}
-                              <td className="py-3 px-3 text-right">
+                              <td className="px-3 py-3 text-right">
                                 <div className="inline-flex items-center space-x-1.5">
                                   <button
                                     onClick={() => setSelectedTrackingOrder(ord)}
@@ -2683,11 +2685,11 @@ const AdminDashboard = () => {
               VIEW 2: INVENTORY
               ========================================================================= */}
           {activeTab === 'inventory' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
+            <div className="space-y-6 duration-200 animate-in fade-in">
               
               {/* Top Controls: Search, Category Filter, and Add Button */}
               <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-4">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
                   <div>
                     <h3 className="font-serif text-xl font-bold text-[#4A2E1B]">
                       Makhana Inventory & Stock Control
@@ -2728,7 +2730,7 @@ const AdminDashboard = () => {
 
                 {/* Search & Category Filter */}
                 {inventorySubTab === 'products' && (
-                  <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                  <div className="flex flex-col gap-3 pt-2 sm:flex-row">
                     <div className="relative flex-1">
                       <Search className="w-4 h-4 text-[#8A6D56] absolute left-3.5 top-1/2 -translate-y-1/2" />
                       <input
@@ -2740,7 +2742,7 @@ const AdminDashboard = () => {
                       />
                     </div>
 
-                    <div className="flex items-center space-x-1 overflow-x-auto scrollbar-none pb-1 sm:pb-0">
+                    <div className="flex items-center pb-1 space-x-1 overflow-x-auto scrollbar-none sm:pb-0">
                       {['all', 'plain', 'roasted', 'masala', 'flavoured', 'sweet', 'raw'].map((cat) => (
                         <button
                           key={cat}
@@ -2763,16 +2765,16 @@ const AdminDashboard = () => {
               {inventorySubTab === 'products' && (
                 <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-4">
                   <div className="overflow-x-auto">
-                    <table className="w-full text-left text-xs border-collapse">
+                    <table className="w-full text-xs text-left border-collapse">
                       <thead>
                         <tr className="border-b-2 border-[#4A2E1B] bg-[#FAF6F0] text-[#4A2E1B]">
-                          <th className="py-3 px-3 font-bold">Image</th>
-                          <th className="py-3 px-3 font-bold">Product Flavour & Category</th>
-                          <th className="py-3 px-3 font-bold">Pack Size</th>
-                          <th className="py-3 px-3 font-bold">Price (₹)</th>
-                          <th className="py-3 px-3 font-bold text-center">Live Stock (Packs)</th>
-                          <th className="py-3 px-3 font-bold text-center">Status</th>
-                          <th className="py-3 px-3 font-bold text-right">Actions</th>
+                          <th className="px-3 py-3 font-bold">Image</th>
+                          <th className="px-3 py-3 font-bold">Product Flavour & Category</th>
+                          <th className="px-3 py-3 font-bold">Pack Size</th>
+                          <th className="px-3 py-3 font-bold">Price (₹)</th>
+                          <th className="px-3 py-3 font-bold text-center">Live Stock (Packs)</th>
+                          <th className="px-3 py-3 font-bold text-center">Status</th>
+                          <th className="px-3 py-3 font-bold text-right">Actions</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-[#E8DEC9]">
@@ -2783,14 +2785,14 @@ const AdminDashboard = () => {
 
                           return (
                             <tr key={p._id} className="hover:bg-[#FAF6F0]/50 transition-colors">
-                              <td className="py-3 px-3">
+                              <td className="px-3 py-3">
                                 <img
                                   src={p.images?.[0] || p.image || '/images/plain-makhana-bowl.png'}
                                   alt={p.name}
                                   className="w-12 h-12 rounded-xl object-cover border border-[#E8DEC9] bg-[#FAF6F0]"
                                 />
                               </td>
-                              <td className="py-3 px-3">
+                              <td className="px-3 py-3">
                                 <div className="font-bold text-sm text-[#4A2E1B]">{p.name}</div>
                                 <div className="flex items-center space-x-2 pt-0.5">
                                   <span className="text-[10px] font-bold text-[#8A6D56] uppercase tracking-wider capitalize">
@@ -2806,13 +2808,13 @@ const AdminDashboard = () => {
                               <td className="py-3 px-3 font-semibold text-[#6D4A32]">
                                 {p.weight || '250g'}
                               </td>
-                              <td className="py-3 px-3">
+                              <td className="px-3 py-3">
                                 <div className="font-bold text-sm text-[#4A2E1B]">₹{p.price}</div>
                                 {p.compareAtPrice > p.price && (
                                   <div className="text-[10px] text-gray-400 line-through">₹{p.compareAtPrice}</div>
                                 )}
                               </td>
-                              <td className="py-3 px-3 text-center">
+                              <td className="px-3 py-3 text-center">
                                 {/* Quick Stock Stepper Buttons */}
                                 <div className="inline-flex items-center space-x-1.5 bg-[#FAF6F0] p-1 rounded-xl border border-[#E8DEC9]">
                                   <button
@@ -2848,7 +2850,7 @@ const AdminDashboard = () => {
                                   </button>
                                 </div>
                               </td>
-                              <td className="py-3 px-3 text-center">
+                              <td className="px-3 py-3 text-center">
                                 <span className={`inline-block px-2.5 py-0.5 rounded-full text-[10px] font-bold ${
                                   isOutOfStock
                                     ? 'bg-red-50 text-red-600 border border-red-200'
@@ -2859,7 +2861,7 @@ const AdminDashboard = () => {
                                   {isOutOfStock ? 'Out of Stock' : isLowStock ? 'Low Stock Warning' : 'In Stock'}
                                 </span>
                               </td>
-                              <td className="py-3 px-3 text-right">
+                              <td className="px-3 py-3 text-right">
                                 <div className="inline-flex items-center space-x-1.5">
                                   <button
                                     onClick={() => handleOpenEditProduct(p)}
@@ -2889,11 +2891,11 @@ const AdminDashboard = () => {
               {/* Sub-Tab 2: Recipes Management */}
               {inventorySubTab === 'recipes' && (
                 <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-4">
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                     {recipes.map((rec) => (
                       <div key={rec._id} className="border border-[#E8DEC9] rounded-2xl overflow-hidden bg-[#FAF6F0]/40 flex flex-col justify-between">
-                        <img src={rec.image} alt={rec.title} className="w-full h-40 object-cover" />
-                        <div className="p-4 space-y-2 flex-1 flex flex-col justify-between">
+                        <img src={rec.image} alt={rec.title} className="object-cover w-full h-40" />
+                        <div className="flex flex-col justify-between flex-1 p-4 space-y-2">
                           <div>
                             <h4 className="font-serif text-lg font-bold text-[#4A2E1B]">{rec.title}</h4>
                             <p className="text-xs text-[#6D4A32] line-clamp-2">{rec.description}</p>
@@ -2934,10 +2936,10 @@ const AdminDashboard = () => {
               VIEW 3: PAYMENTS
               ========================================================================= */}
           {activeTab === 'payments' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
+            <div className="space-y-6 duration-200 animate-in fade-in">
               
               {/* Financial Metrics Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
                 <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-2">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-[#8A6D56] uppercase tracking-wider">Total Net Payments</span>
@@ -2979,7 +2981,7 @@ const AdminDashboard = () => {
 
               {/* Payment Filter & Search Bar */}
               <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-4">
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div className="flex flex-col justify-between gap-4 md:flex-row md:items-center">
                   <div className="flex flex-wrap items-center gap-2">
                     {[
                       { id: 'all', label: `All (${periodPayments.length})` },
@@ -3062,17 +3064,17 @@ const AdminDashboard = () => {
 
                 {/* Payments Table */}
                 <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs border-collapse">
+                  <table className="w-full text-xs text-left border-collapse">
                     <thead>
                       <tr className="border-b-2 border-[#4A2E1B] bg-[#FAF6F0] text-[#4A2E1B]">
-                        <th className="py-3 px-3 font-bold">Order ID</th>
-                        <th className="py-3 px-3 font-bold">Customer</th>
-                        <th className="py-3 px-3 font-bold">Payment Method</th>
-                        <th className="py-3 px-3 font-bold">Transaction / Ref ID</th>
-                        <th className="py-3 px-3 font-bold">Amount</th>
-                        <th className="py-3 px-3 font-bold">Payment Status (Admin Control)</th>
-                        <th className="py-3 px-3 font-bold">Date</th>
-                        <th className="py-3 px-3 font-bold text-right">Tax Invoice</th>
+                        <th className="px-3 py-3 font-bold">Order ID</th>
+                        <th className="px-3 py-3 font-bold">Customer</th>
+                        <th className="px-3 py-3 font-bold">Payment Method</th>
+                        <th className="px-3 py-3 font-bold">Transaction / Ref ID</th>
+                        <th className="px-3 py-3 font-bold">Amount</th>
+                        <th className="px-3 py-3 font-bold">Payment Status (Admin Control)</th>
+                        <th className="px-3 py-3 font-bold">Date</th>
+                        <th className="px-3 py-3 font-bold text-right">Tax Invoice</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-[#E8DEC9]">
@@ -3084,7 +3086,7 @@ const AdminDashboard = () => {
                           <td className="py-3 px-3 font-semibold text-[#4A2E1B]">
                             {ord.shippingAddress?.fullName || ord.customer?.name}
                           </td>
-                          <td className="py-3 px-3">
+                          <td className="px-3 py-3">
                             <span className={`inline-block px-2.5 py-0.5 rounded-full text-[10px] font-bold ${
                               ord.paymentMethod === 'razorpay'
                                 ? 'bg-[#EAF3E7] text-[#2D5A27] border border-[#2D5A27]/20'
@@ -3099,7 +3101,7 @@ const AdminDashboard = () => {
                           <td className="py-3 px-3 font-bold text-sm text-[#4A2E1B]">
                             ₹{ord.total}
                           </td>
-                          <td className="py-3 px-3">
+                          <td className="px-3 py-3">
                             {ord.paymentMethod === 'cod' ? (
                               <div className="flex items-center space-x-1.5">
                                 <select
@@ -3130,7 +3132,7 @@ const AdminDashboard = () => {
                               year: 'numeric'
                             })}
                           </td>
-                          <td className="py-3 px-3 text-right">
+                          <td className="px-3 py-3 text-right">
                             <button
                               onClick={() => setViewingInvoiceOrder(ord)}
                               className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-[#FAF6F0] hover:bg-white text-[#4A2E1B] border border-[#E8DEC9] text-xs font-bold transition-all cursor-pointer shadow-2xs"
@@ -3153,10 +3155,10 @@ const AdminDashboard = () => {
               VIEW 4: CUSTOMERS & USER DIRECTORY (Includes Admin Staff & Customers)
               ========================================================================= */}
           {activeTab === 'customers' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
+            <div className="space-y-6 duration-200 animate-in fade-in">
               
               {/* Customer & User KPIs */}
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
                 <div className="bg-white rounded-2xl p-4 border border-[#E8DEC9] shadow-soft">
                   <span className="text-[10px] font-bold text-[#8A6D56] uppercase tracking-wider block">Total Accounts</span>
                   <p className="text-2xl font-bold font-serif text-[#4A2E1B] mt-1">{customerUsers.length}</p>
@@ -3173,7 +3175,7 @@ const AdminDashboard = () => {
 
                 <div className="bg-white rounded-2xl p-4 border border-[#E8DEC9] shadow-soft">
                   <span className="text-[10px] font-bold text-purple-700 uppercase tracking-wider block">Admin Staff</span>
-                  <p className="text-2xl font-bold font-serif text-purple-700 mt-1">
+                  <p className="mt-1 font-serif text-2xl font-bold text-purple-700">
                     {adminUsers.length}
                   </p>
                   <span className="text-[10px] text-purple-600">Store administrators</span>
@@ -3189,7 +3191,7 @@ const AdminDashboard = () => {
               </div>
 
               <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-4">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
                   <div>
                     <h3 className="font-serif text-xl font-bold text-[#4A2E1B]">
                       User & Customer Directory
@@ -3199,7 +3201,7 @@ const AdminDashboard = () => {
                     </p>
                   </div>
 
-                  <div className="flex items-center space-x-2 w-full sm:w-80">
+                  <div className="flex items-center w-full space-x-2 sm:w-80">
                     <div className="relative flex-1">
                       <Search className="w-4 h-4 text-[#8A6D56] absolute left-3.5 top-1/2 -translate-y-1/2" />
                       <input
@@ -3268,16 +3270,16 @@ const AdminDashboard = () => {
 
                 {/* Customers & Users Table */}
                 <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs border-collapse">
+                  <table className="w-full text-xs text-left border-collapse">
                     <thead>
                       <tr className="border-b-2 border-[#4A2E1B] bg-[#FAF6F0] text-[#4A2E1B]">
-                        <th className="py-3 px-3 font-bold">User Profile</th>
-                        <th className="py-3 px-3 font-bold">Account Role</th>
-                        <th className="py-3 px-3 font-bold">Email</th>
-                        <th className="py-3 px-3 font-bold">Mobile Phone</th>
-                        <th className="py-3 px-3 font-bold text-center">Orders</th>
-                        <th className="py-3 px-3 font-bold text-center">Account Status</th>
-                        <th className="py-3 px-3 font-bold text-right">Admin Action</th>
+                        <th className="px-3 py-3 font-bold">User Profile</th>
+                        <th className="px-3 py-3 font-bold">Account Role</th>
+                        <th className="px-3 py-3 font-bold">Email</th>
+                        <th className="px-3 py-3 font-bold">Mobile Phone</th>
+                        <th className="px-3 py-3 font-bold text-center">Orders</th>
+                        <th className="px-3 py-3 font-bold text-center">Account Status</th>
+                        <th className="px-3 py-3 font-bold text-right">Admin Action</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-[#E8DEC9]">
@@ -3304,7 +3306,7 @@ const AdminDashboard = () => {
                               key={u._id || u.id || u.email}
                               className={`hover:bg-[#FAF6F0]/50 transition-colors ${isAdminUser ? 'bg-purple-50/20' : ''} ${isCustBlocked ? 'bg-red-50/30' : ''}`}
                             >
-                              <td className="py-3 px-3">
+                              <td className="px-3 py-3">
                                 <div className="flex items-center space-x-2.5">
                                   <div className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs ${
                                     isCustBlocked 
@@ -3331,7 +3333,7 @@ const AdminDashboard = () => {
                                 </div>
                               </td>
 
-                              <td className="py-3 px-3">
+                              <td className="px-3 py-3">
                                 {isAdminUser ? (
                                   <span className="inline-flex items-center space-x-1 px-2.5 py-1 rounded-full text-[11px] font-bold bg-purple-100 text-purple-800 border border-purple-300">
                                     <ShieldCheck className="w-3 h-3 text-purple-600" />
@@ -3347,14 +3349,14 @@ const AdminDashboard = () => {
                               <td className="py-3 px-3 text-[#6D4A32] font-mono text-[11px]">{u.email}</td>
                               <td className="py-3 px-3 text-[#6D4A32]">{u.phone || '—'}</td>
 
-                              <td className="py-3 px-3 text-center">
+                              <td className="px-3 py-3 text-center">
                                 <span className="font-bold text-[#4A2E1B]">{userOrders.length}</span>
                                 {totalSpend > 0 && (
                                   <span className="block text-[10px] text-[#2D5A27] font-semibold">₹{totalSpend}</span>
                                 )}
                               </td>
 
-                              <td className="py-3 px-3 text-center">
+                              <td className="px-3 py-3 text-center">
                                 {isCustBlocked ? (
                                   <span className="inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <AlertTriangle className="w-3 h-3 text-red-600" />
@@ -3368,7 +3370,7 @@ const AdminDashboard = () => {
                                 )}
                               </td>
 
-                              <td className="py-3 px-3 text-right">
+                              <td className="px-3 py-3 text-right">
                                 {isAdminUser ? (
                                   <div className="inline-flex items-center space-x-2">
                                     {!isPrimarySuperAdmin && !isCurrentUser(u) ? (
@@ -3444,10 +3446,10 @@ const AdminDashboard = () => {
               VIEW: ADMINS (Dedicated Sidepanel Section)
               ========================================================================= */}
           {activeTab === 'admins' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
+            <div className="space-y-6 duration-200 animate-in fade-in">
               
               {/* Admin KPIs */}
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
                 <div className="bg-white rounded-2xl p-4 border border-[#E8DEC9] shadow-soft">
                   <span className="text-[10px] font-bold text-[#8A6D56] uppercase tracking-wider block">Total Administrators</span>
                   <p className="text-2xl font-bold font-serif text-[#4A2E1B] mt-1">{adminUsers.length}</p>
@@ -3494,13 +3496,13 @@ const AdminDashboard = () => {
                 </div>
               ) : (
                 <div className="p-3.5 rounded-2xl bg-gray-50 border border-gray-200 flex items-center space-x-2 text-xs text-gray-600">
-                  <ShieldAlert className="w-4 h-4 text-gray-400 flex-shrink-0" />
+                  <ShieldAlert className="flex-shrink-0 w-4 h-4 text-gray-400" />
                   <span><strong>Operator Access:</strong> Role updates and administrator deletion are restricted to Super Administrators.</span>
                 </div>
               )}
 
               <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-4">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
                   <div>
                     <h3 className="font-serif text-xl font-bold text-[#4A2E1B] flex items-center space-x-2">
                       <ShieldCheck className="w-5 h-5 text-[#D99B26]" />
@@ -3511,7 +3513,7 @@ const AdminDashboard = () => {
                     </p>
                   </div>
 
-                  <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
+                  <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center">
                     <div className="relative w-full sm:w-64">
                       <Search className="w-4 h-4 text-[#8A6D56] absolute left-3.5 top-1/2 -translate-y-1/2" />
                       <input
@@ -3532,7 +3534,7 @@ const AdminDashboard = () => {
                         <span>Add Administrator</span>
                       </button>
                     ) : (
-                      <div className="inline-flex items-center space-x-1 px-3 py-2 rounded-xl bg-gray-100 text-gray-500 border border-gray-200 text-xs font-semibold" title="Only Super Administrators can create or authorize administrator accounts">
+                      <div className="inline-flex items-center px-3 py-2 space-x-1 text-xs font-semibold text-gray-500 bg-gray-100 border border-gray-200 rounded-xl" title="Only Super Administrators can create or authorize administrator accounts">
                         <ShieldAlert className="w-4 h-4 text-gray-400" />
                         <span>Super Admin Required</span>
                       </div>
@@ -3542,15 +3544,15 @@ const AdminDashboard = () => {
 
                 {/* Admins Table */}
                 <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs border-collapse">
+                  <table className="w-full text-xs text-left border-collapse">
                     <thead>
                       <tr className="border-b-2 border-[#4A2E1B] bg-[#FAF6F0] text-[#4A2E1B]">
-                        <th className="py-3 px-3 font-bold">Administrator</th>
-                        <th className="py-3 px-3 font-bold">Email (Login)</th>
-                        <th className="py-3 px-3 font-bold">Mobile Phone</th>
-                        <th className="py-3 px-3 font-bold">Assigned Role</th>
-                        <th className="py-3 px-3 font-bold text-center">Status</th>
-                        <th className="py-3 px-3 font-bold text-right">Access Controls</th>
+                        <th className="px-3 py-3 font-bold">Administrator</th>
+                        <th className="px-3 py-3 font-bold">Email (Login)</th>
+                        <th className="px-3 py-3 font-bold">Mobile Phone</th>
+                        <th className="px-3 py-3 font-bold">Assigned Role</th>
+                        <th className="px-3 py-3 font-bold text-center">Status</th>
+                        <th className="px-3 py-3 font-bold text-right">Access Controls</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-[#E8DEC9]">
@@ -3569,7 +3571,7 @@ const AdminDashboard = () => {
 
                           return (
                             <tr key={adm._id || adm.id || adm.email} className={`hover:bg-[#FAF6F0]/50 transition-colors ${isSelf ? 'bg-[#FAF6F0]/60' : ''}`}>
-                              <td className="py-3 px-3">
+                              <td className="px-3 py-3">
                                 <div className="flex items-center space-x-2.5">
                                   <div className="relative">
                                     <div className="w-8 h-8 rounded-full bg-[#4A2E1B] text-[#D99B26] border border-[#D99B26]/40 flex items-center justify-center font-bold text-xs">
@@ -3601,7 +3603,7 @@ const AdminDashboard = () => {
                                 {adm.phone || '—'}
                               </td>
 
-                              <td className="py-3 px-3">
+                              <td className="px-3 py-3">
                                 {isAdmSuper ? (
                                   <span className="inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-[#FEF8EA] text-[#B07812] border border-[#D99B26]/40 shadow-2xs">
                                     <ShieldCheck className="w-3 h-3 text-[#D99B26]" />
@@ -3615,7 +3617,7 @@ const AdminDashboard = () => {
                                 )}
                               </td>
 
-                              <td className="py-3 px-3 text-center">
+                              <td className="px-3 py-3 text-center">
                                 {isAdmBlocked ? (
                                   <span className="inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-red-100 text-red-700 border border-red-200">
                                     <AlertTriangle className="w-3 h-3 text-red-600" />
@@ -3634,7 +3636,7 @@ const AdminDashboard = () => {
                                 )}
                               </td>
 
-                              <td className="py-3 px-3 text-right">
+                              <td className="px-3 py-3 text-right">
                                 {isSelf ? (
                                   <div className="inline-flex items-center space-x-2">
                                     <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-xl text-[11px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
@@ -3717,7 +3719,7 @@ const AdminDashboard = () => {
               VIEW 5: NOTIFICATIONS
               ========================================================================= */}
           {activeTab === 'notifications' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
+            <div className="space-y-6 duration-200 animate-in fade-in">
               
               <div className="bg-white rounded-3xl p-6 border border-[#E8DEC9] shadow-soft space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#E8DEC9] pb-4">
@@ -3831,7 +3833,7 @@ const AdminDashboard = () => {
                         <p className="text-xs text-[#6D4A32] leading-relaxed pl-6">
                           "{msg.message}"
                         </p>
-                        <div className="pl-6 pt-1">
+                        <div className="pt-1 pl-6">
                           <a
                             href={`mailto:${msg.email}?subject=Reply from Mithila Makhana`}
                             className="inline-flex items-center space-x-1 text-xs font-bold text-[#D99B26] hover:underline"
@@ -3853,7 +3855,7 @@ const AdminDashboard = () => {
               VIEW 6: HELP & SUPPORT
               ========================================================================= */}
           {activeTab === 'help' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
+            <div className="space-y-6 duration-200 animate-in fade-in">
               
               <div className="bg-white rounded-3xl p-6 sm:p-8 border border-[#E8DEC9] shadow-soft space-y-6">
                 <div>
@@ -3864,7 +3866,7 @@ const AdminDashboard = () => {
                 </div>
 
                 {/* Support Summary Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
                   <div className="p-4 rounded-2xl bg-[#FAF6F0] border border-[#E8DEC9] space-y-1">
                     <span className="text-[10px] font-bold text-[#8A6D56] uppercase">Order Support</span>
                     <p className="text-sm font-bold text-[#2D5A27] flex items-center space-x-1.5">
@@ -3899,7 +3901,7 @@ const AdminDashboard = () => {
                 </div>
 
                 {/* Operational SOPs */}
-                <div className="space-y-4 pt-2">
+                <div className="pt-2 space-y-4">
                   <h4 className="font-serif text-base font-bold text-[#4A2E1B]">
                     Common Admin Workflows
                   </h4>
@@ -3953,7 +3955,7 @@ const AdminDashboard = () => {
               VIEW 7: SETTINGS
               ========================================================================= */}
           {activeTab === 'settings' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
+            <div className="space-y-6 duration-200 animate-in fade-in">
               
               <div className="bg-white rounded-3xl p-6 sm:p-8 border border-[#E8DEC9] shadow-soft space-y-6">
                 <div>
@@ -3971,7 +3973,7 @@ const AdminDashboard = () => {
                       Business Profile Details
                     </h4>
                     
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                       <div>
                         <label className="text-xs font-bold text-[#4A2E1B] block mb-1">Company Legal Name</label>
                         <input
@@ -4008,12 +4010,12 @@ const AdminDashboard = () => {
                   </div>
 
                   {/* Government Registrations */}
-                  <div className="space-y-3 pt-3 border-t border-gray-100">
+                  <div className="pt-3 space-y-3 border-t border-gray-100">
                     <h4 className="text-xs font-bold uppercase tracking-wider text-[#8A6D56]">
                       Government Tax & Food Registrations
                     </h4>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                       <div>
                         <label className="text-xs font-bold text-[#4A2E1B] block mb-1">GSTIN (State Code: 10 - Bihar)</label>
                         <input
@@ -4039,12 +4041,12 @@ const AdminDashboard = () => {
                   </div>
 
                   {/* Delivery & Shipping Thresholds */}
-                  <div className="space-y-3 pt-3 border-t border-gray-100">
+                  <div className="pt-3 space-y-3 border-t border-gray-100">
                     <h4 className="text-xs font-bold uppercase tracking-wider text-[#8A6D56]">
                       Delivery Rules & Thresholds
                     </h4>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                       <div>
                         <label className="text-xs font-bold text-[#4A2E1B] block mb-1">Free Delivery Minimum Order (₹)</label>
                         <input
@@ -4070,12 +4072,12 @@ const AdminDashboard = () => {
                   </div>
 
                   {/* Customer Care Contacts */}
-                  <div className="space-y-3 pt-3 border-t border-gray-100">
+                  <div className="pt-3 space-y-3 border-t border-gray-100">
                     <h4 className="text-xs font-bold uppercase tracking-wider text-[#8A6D56]">
                       Customer Support Contacts
                     </h4>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                       <div>
                         <label className="text-xs font-bold text-[#4A2E1B] block mb-1">Helpline Phone Number</label>
                         <input
@@ -4101,7 +4103,7 @@ const AdminDashboard = () => {
                   </div>
 
                   {/* Save Button */}
-                  <div className="pt-4 flex items-center justify-end">
+                  <div className="flex items-center justify-end pt-4">
                     <button
                       type="submit"
                       disabled={isSavingSettings}
@@ -4122,8 +4124,8 @@ const AdminDashboard = () => {
               VIEW 11: COUPONS & OFFERS
               ========================================================================= */}
           {activeTab === 'coupons' && (
-            <div className="space-y-6 animate-in fade-in duration-200">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="space-y-6 duration-200 animate-in fade-in">
+              <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
                 <div>
                   <h3 className="font-serif text-xl font-bold text-[#4A2E1B]">Coupons & Promotional Offers</h3>
                   <p className="text-xs text-[#8A6D56]">Create and manage discount codes used by customers at checkout</p>
@@ -4161,12 +4163,12 @@ const AdminDashboard = () => {
                       ) : (
                         coupons.map((coupon) => (
                           <tr key={coupon._id} className="border-b border-[#F3EAD8] hover:bg-[#FAF6F0]/60">
-                            <td className="py-3 px-4">
+                            <td className="px-4 py-3">
                               <span className="font-mono font-bold text-[#4A2E1B] bg-[#FEF8EA] px-2 py-1 rounded-lg border border-[#D99B26]/20">
                                 {coupon.code}
                               </span>
                             </td>
-                            <td className="py-3 px-4">
+                            <td className="px-4 py-3">
                               <p className="font-semibold text-[#4A2E1B]">{coupon.title}</p>
                               {coupon.description && (
                                 <p className="text-[10px] text-[#8A6D56] mt-0.5 line-clamp-1">{coupon.description}</p>
@@ -4184,7 +4186,7 @@ const AdminDashboard = () => {
                               {coupon.usedCount || 0}
                               {coupon.usageLimit != null ? ` / ${coupon.usageLimit}` : ''}
                             </td>
-                            <td className="py-3 px-4">
+                            <td className="px-4 py-3">
                               <button
                                 onClick={() => handleToggleCouponStatus(coupon)}
                                 className={`inline-flex items-center px-2.5 py-1 rounded-full text-[10px] font-bold cursor-pointer ${
@@ -4196,7 +4198,7 @@ const AdminDashboard = () => {
                                 {coupon.isActive ? 'Active' : 'Inactive'}
                               </button>
                             </td>
-                            <td className="py-3 px-4">
+                            <td className="px-4 py-3">
                               <div className="flex items-center justify-end space-x-1.5">
                                 <button
                                   onClick={() => handleOpenEditCoupon(coupon)}
@@ -4207,7 +4209,7 @@ const AdminDashboard = () => {
                                 </button>
                                 <button
                                   onClick={() => handleDeleteCoupon(coupon._id, coupon.code)}
-                                  className="p-2 rounded-lg bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 cursor-pointer"
+                                  className="p-2 text-red-600 border border-red-200 rounded-lg cursor-pointer bg-red-50 hover:bg-red-100"
                                   title="Delete coupon"
                                 >
                                   <Trash2 className="w-3.5 h-3.5" />
@@ -4246,7 +4248,7 @@ const AdminDashboard = () => {
 
       {/* 2. Order Detail View Modal */}
       {viewingOrderDetail && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
           <div className="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-5 border border-[#E8DEC9] shadow-2xl">
             <div className="flex items-center justify-between border-b border-[#E8DEC9] pb-3">
               <div>
@@ -4311,7 +4313,7 @@ const AdminDashboard = () => {
               <span className="text-xs font-bold text-[#8A6D56] uppercase">Purchased Items</span>
               <div className="divide-y divide-gray-100 border border-[#E8DEC9] rounded-2xl overflow-hidden bg-white">
                 {viewingOrderDetail.items?.map((it, idx) => (
-                  <div key={idx} className="p-3 flex items-center justify-between text-xs">
+                  <div key={idx} className="flex items-center justify-between p-3 text-xs">
                     <div className="flex items-center space-x-3">
                       <img src={it.image} alt={it.name} className="w-10 h-10 rounded-xl object-cover border border-[#E8DEC9]" />
                       <div>
@@ -4326,7 +4328,7 @@ const AdminDashboard = () => {
             </div>
 
             {/* Actions */}
-            <div className="pt-2 flex items-center justify-end space-x-2">
+            <div className="flex items-center justify-end pt-2 space-x-2">
               <button
                 onClick={() => {
                   setViewingInvoiceOrder(viewingOrderDetail);
@@ -4350,7 +4352,7 @@ const AdminDashboard = () => {
 
       {/* 3. Product Add/Edit Modal */}
       {productModalOpen && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
           <div className="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-5 border border-[#E8DEC9] shadow-2xl">
             <div className="flex items-center justify-between border-b border-[#E8DEC9] pb-3">
               <h3 className="font-serif text-lg font-bold text-[#4A2E1B]">
@@ -4365,7 +4367,7 @@ const AdminDashboard = () => {
             </div>
 
             <form onSubmit={handleSaveProduct} className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div>
                   <label className="text-xs font-bold text-[#4A2E1B] block mb-1">Product Name</label>
                   <input
@@ -4395,7 +4397,7 @@ const AdminDashboard = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
                 <div>
                   <label className="text-xs font-bold text-[#4A2E1B] block mb-1">Price (₹)</label>
                   <input
@@ -4446,7 +4448,7 @@ const AdminDashboard = () => {
                 <label className="text-xs font-bold text-[#4A2E1B] block mb-1.5">
                   Select Product Photography Asset
                 </label>
-                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+                <div className="grid grid-cols-2 gap-2 sm:grid-cols-5">
                   {AVAILABLE_IMAGES.map((imgOpt) => {
                     const isSelected = productForm.images[0] === imgOpt.url;
                     return (
@@ -4459,7 +4461,7 @@ const AdminDashboard = () => {
                             : 'bg-[#FAF6F0] border-[#E8DEC9] hover:bg-white'
                         }`}
                       >
-                        <img src={imgOpt.url} alt={imgOpt.label} className="w-full h-16 object-cover rounded-lg mb-1" />
+                        <img src={imgOpt.url} alt={imgOpt.label} className="object-cover w-full h-16 mb-1 rounded-lg" />
                         <span className="text-[9px] font-semibold text-[#6D4A32] line-clamp-1">{imgOpt.label}</span>
                       </div>
                     );
@@ -4526,7 +4528,7 @@ const AdminDashboard = () => {
 
       {/* 4. Recipe Add/Edit Modal */}
       {recipeModalOpen && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
           <div className="bg-white rounded-3xl max-w-xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-4 border border-[#E8DEC9] shadow-2xl">
             <div className="flex items-center justify-between border-b border-[#E8DEC9] pb-3">
               <h3 className="font-serif text-lg font-bold text-[#4A2E1B]">
@@ -4638,7 +4640,7 @@ const AdminDashboard = () => {
 
       {/* 5. Coupon Create/Edit Modal */}
       {couponModalOpen && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
           <div className="bg-white rounded-3xl max-w-xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-4 border border-[#E8DEC9] shadow-2xl">
             <div className="flex items-center justify-between border-b border-[#E8DEC9] pb-3">
               <div className="flex items-center space-x-2.5">
@@ -4661,7 +4663,7 @@ const AdminDashboard = () => {
             </div>
 
             <form onSubmit={handleSaveCoupon} className="space-y-3 text-xs">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <div>
                   <label className="font-bold text-[#4A2E1B] block mb-1">Coupon Code *</label>
                   <input
@@ -4722,7 +4724,7 @@ const AdminDashboard = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
                 <div>
                   <label className="font-bold text-[#4A2E1B] block mb-1">Min Order (₹)</label>
                   <input
@@ -4802,7 +4804,7 @@ const AdminDashboard = () => {
 
       {/* 6. Add Administrator Modal */}
       {adminModalOpen && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
           <div className="bg-white rounded-3xl max-w-md w-full p-6 space-y-4 border border-[#E8DEC9] shadow-2xl animate-in zoom-in-95 duration-200">
             <div className="flex items-center justify-between border-b border-[#E8DEC9] pb-3">
               <div className="flex items-center space-x-2.5">
@@ -4941,7 +4943,7 @@ const AdminDashboard = () => {
 
       {/* 6. Shipment Tracking Modal */}
       {trackingModalOrder && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
           <div className="bg-white rounded-3xl max-w-lg w-full p-6 space-y-4 border border-[#E8DEC9] shadow-2xl animate-in zoom-in-95 duration-200">
             <div className="flex items-center justify-between border-b border-[#E8DEC9] pb-3">
               <div className="flex items-center space-x-2.5">
@@ -4966,7 +4968,7 @@ const AdminDashboard = () => {
             </div>
 
             <form onSubmit={handleSaveTracking} className="space-y-3.5 text-xs">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <div>
                   <label className="font-bold text-[#4A2E1B] block mb-1">Shipment Stage *</label>
                   <select
@@ -5068,11 +5070,11 @@ const AdminDashboard = () => {
 
       {/* 7. Promote Customer to Administrator Modal */}
       {promoteModalUser && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
           <div className="bg-white rounded-3xl max-w-md w-full p-6 space-y-4 border border-[#E8DEC9] shadow-2xl animate-in zoom-in-95 duration-200">
             <div className="flex items-center justify-between border-b border-[#E8DEC9] pb-3">
               <div className="flex items-center space-x-2.5">
-                <div className="w-9 h-9 rounded-xl bg-purple-50 border border-purple-200 flex items-center justify-center text-purple-600">
+                <div className="flex items-center justify-center text-purple-600 border border-purple-200 w-9 h-9 rounded-xl bg-purple-50">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <div>
@@ -5128,7 +5130,7 @@ const AdminDashboard = () => {
                     id="set-initial-pass"
                     checked={promoteForm.setInitialPassword}
                     onChange={(e) => setPromoteForm({ ...promoteForm, setInitialPassword: e.target.checked })}
-                    className="rounded text-purple-600 focus:ring-purple-500"
+                    className="text-purple-600 rounded focus:ring-purple-500"
                   />
                   <label htmlFor="set-initial-pass" className="text-xs font-semibold text-[#4A2E1B] cursor-pointer">
                     Assign initial password (forces password change on login)
@@ -5180,7 +5182,7 @@ const AdminDashboard = () => {
 
       {/* 8. Super Administrator - Update Admin Role & Designation Modal */}
       {editRoleAdminModal && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
           <div className="bg-white rounded-3xl max-w-md w-full p-6 space-y-4 border border-[#E8DEC9] shadow-2xl animate-in zoom-in-95 duration-200">
             <div className="flex items-center justify-between border-b border-[#E8DEC9] pb-3">
               <div className="flex items-center space-x-2.5">
