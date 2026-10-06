@@ -19,10 +19,17 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Middleware
-app.use(cors({
-  origin: '*',
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: [
+      'http://localhost:5173',
+      'https://mithila-makhana.vercel.app',
+    ],
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  })
+);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
