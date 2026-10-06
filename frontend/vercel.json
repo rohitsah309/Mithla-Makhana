@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://mithila-makhana.onrender.com/api/:path*"
+      "destination": "https://mithla-makhana.onrender.com/api/:path*"
     },
     {
       "source": "/uploads/:path*",
-      "destination": "https://mithila-makhana.onrender.com/uploads/:path*"
+      "destination": "https://mithla-makhana.onrender.com/uploads/:path*"
     },
     {
       "source": "/(.*)",
