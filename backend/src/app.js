@@ -21,12 +21,10 @@ const __dirname = path.dirname(__filename);
 // Middleware
 app.use(
   cors({
-    origin: [
-      'http://localhost:5173',
-      'https://mithila-makhana.vercel.app',
-    ],
+    origin: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
+    optionsSuccessStatus: 204,
   })
 );
 
