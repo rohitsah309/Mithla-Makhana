@@ -1,0 +1,155 @@
+[
+  {
+    "_id": "rec_01",
+    "title": "5-Minute Roasted Masala Makhana",
+    "slug": "roasted-masala-makhana",
+    "description": "The definitive everyday teatime snack. Crunchy, fragrant with desi ghee and spiced to perfection.",
+    "image": "/images/roasted-makhana-jar.png",
+    "prepTime": "5 mins",
+    "cookTime": "5 mins",
+    "servings": "2-4 persons",
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 cups Mithila Plain Makhana",
+      "1 tbsp Pure Desi Ghee or Cold-pressed Oil",
+      "1/2 tsp Turmeric Powder (Haldi)",
+      "1/2 tsp Roasted Cumin Powder (Jeera)",
+      "1/2 tsp Chaat Masala",
+      "1/4 tsp Kashmiri Red Chili Powder",
+      "Pink Salt or Black Salt to taste"
+    ],
+    "instructions": [
+      "Heat 1 tablespoon pure ghee in a heavy-bottomed pan or kadhai on low flame.",
+      "Add the Mithila Plain Makhana and roast slowly, stirring continuously for 4-5 minutes.",
+      "Test a piece by crushing between your fingers. It should shatter with a crisp crunch.",
+      "Turn off the heat. Immediately sprinkle turmeric, roasted cumin powder, chaat masala, chili powder, and pink salt.",
+      "Toss well so the warm ghee binds the spices to the makhana. Let cool slightly and serve crisp!"
+    ],
+    "featured": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  },
+  {
+    "_id": "rec_02",
+    "title": "Royal Mithila Makhana Kheer",
+    "slug": "makhana-kheer",
+    "description": "A luxurious, fragrant lotus seed pudding infused with cardamom, saffron, and slow-simmered milk.",
+    "image": "/images/plain-makhana-bowl.png",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "servings": "4 persons",
+    "difficulty": "Medium",
+    "ingredients": [
+      "1.5 cups Mithila Plain Makhana",
+      "1 litre Full Cream Milk",
+      "4-5 tbsp Organic Jaggery or Cane Sugar",
+      "1/4 tsp Green Cardamom Powder",
+      "10-12 slivered Almonds and Pistachios",
+      "6-8 strands of Saffron (Kesar)",
+      "1 tsp Ghee for roasting"
+    ],
+    "instructions": [
+      "Lightly roast the makhana in 1 tsp ghee for 3 minutes until crisp. Allow to cool.",
+      "Divide makhana into two halves: keep one half whole, and coarsely crush the second half in a mortar or pulse briefly.",
+      "In a wide saucepan, bring full-cream milk to a boil and let it gently simmer for 8-10 minutes until slightly thickened.",
+      "Add both the whole and crushed makhana into the simmering milk. Cook on low flame for 10-12 minutes, stirring occasionally, until makhana turns soft and absorbs the milk.",
+      "Add cardamom powder, saffron strands, and sweetener. Simmer for 2 more minutes.",
+      "Garnish with slivered almonds and pistachios. Serve warm or chilled."
+    ],
+    "featured": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  },
+  {
+    "_id": "rec_03",
+    "title": "Street-Style Tangy Makhana Chaat",
+    "slug": "makhana-chaat",
+    "description": "A vibrant, light, and tangy street-style chaat loaded with fresh veggies, chutneys, and crisp roasted makhana.",
+    "image": "/images/cheese-flavoured-dip.png",
+    "prepTime": "10 mins",
+    "cookTime": "5 mins",
+    "servings": "2 persons",
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 cups Roasted Salted Mithila Makhana",
+      "1 medium Onion, finely diced",
+      "1 medium Tomato, deseeded and diced",
+      "1 Green Chili, finely chopped (optional)",
+      "2 tbsp Fresh Mint-Coriander Chutney",
+      "1.5 tbsp Sweet Tamarind Chutney",
+      "1 tsp Chaat Masala and Roasted Cumin",
+      "1 tbsp Pomegranate arils",
+      "Fresh Coriander leaves for garnish"
+    ],
+    "instructions": [
+      "In a wide mixing bowl, combine diced onions, tomatoes, green chillies, and pomegranate arils.",
+      "Sprinkle chaat masala and roasted cumin powder.",
+      "Just before serving, add the freshly roasted crunchy Mithila Makhana to avoid sogginess.",
+      "Drizzle the green mint chutney and sweet tamarind chutney on top.",
+      "Toss swiftly and gently with two spoons. Garnish with fresh coriander leaves and serve instantly."
+    ],
+    "featured": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  },
+  {
+    "_id": "rec_04",
+    "title": "Caramel & Jaggery Honeycomb Makhana",
+    "slug": "caramel-makhana",
+    "description": "Crispy clusters glazed in rich Bihar jaggery and roasted sesame seeds. The ultimate healthy sweet craving.",
+    "image": "/images/roasted-makhana-jar.png",
+    "prepTime": "5 mins",
+    "cookTime": "10 mins",
+    "servings": "4 persons",
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 cups Mithila Plain Makhana",
+      "3/4 cup Crushed Organic Jaggery (Gur)",
+      "1 tbsp Pure Desi Ghee",
+      "1 tbsp White Sesame Seeds (Til)",
+      "1/4 tsp Cardamom Powder",
+      "A pinch of Baking Soda (for airy honeycomb crunch)",
+      "A pinch of Rock Salt"
+    ],
+    "instructions": [
+      "Dry roast the makhana on low heat for 5 minutes until fully brittle. Set aside.",
+      "In the same pan, melt 1 tbsp ghee and crushed jaggery on low flame with 1 tsp water until jaggery melts and begins to bubble into a caramel syrup.",
+      "Check caramel readiness by dropping a bit in cold water; it should form a soft candy ball.",
+      "Turn off heat. Add cardamom powder, sesame seeds, pinch of salt, and baking soda. The syrup will froth up.",
+      "Immediately dump the roasted makhana into the pan and stir quickly until all makhana pieces are coated in glossy jaggery.",
+      "Transfer onto parchment paper or greased plate. Separate into pieces while warm. Once cooled, store in an airtight jar."
+    ],
+    "featured": false,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  },
+  {
+    "_id": "rec_05",
+    "title": "Zesty Garlic-Herb Roasted Makhana",
+    "slug": "spicy-makhana-snack",
+    "description": "Crisp popped lotus seeds tossed in roasted garlic, paprika, oregano, and served with a cool yogurt dip.",
+    "image": "/images/cheese-flavoured-dip.png",
+    "prepTime": "5 mins",
+    "cookTime": "6 mins",
+    "servings": "2 persons",
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 cups Mithila Plain Makhana",
+      "1 tbsp Cold-Pressed Olive Oil or Ghee",
+      "1/2 tsp Garlic Powder",
+      "1/2 tsp Dried Oregano / Mixed Italian Herbs",
+      "1/2 tsp Smoked Paprika or Chili Flakes",
+      "Pink Himalayan Salt to taste"
+    ],
+    "instructions": [
+      "Heat oil in a wide skillet on low heat.",
+      "Add makhana and roast gently for 5 minutes until crisp and golden.",
+      "Turn off the stove. Add garlic powder, dried herbs, paprika, and salt.",
+      "Toss thoroughly so the warm oil carries the garlic and herbs into every crevice.",
+      "Serve warm alongside a chilled creamy dip or homemade curd dip."
+    ],
+    "featured": false,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  }
+]

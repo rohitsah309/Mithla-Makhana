@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cat_all",
+    "name": "All Products",
+    "slug": "all"
+  },
+  {
+    "id": "cat_plain",
+    "name": "Plain & Natural",
+    "slug": "plain"
+  },
+  {
+    "id": "cat_roasted",
+    "name": "Ghee Roasted",
+    "slug": "roasted"
+  },
+  {
+    "id": "cat_masala",
+    "name": "Spiced & Masala",
+    "slug": "masala"
+  },
+  {
+    "id": "cat_flavoured",
+    "name": "Gourmet Flavoured",
+    "slug": "flavoured"
+  },
+  {
+    "id": "cat_sweet",
+    "name": "Sweet & Caramel",
+    "slug": "sweet"
+  },
+  {
+    "id": "cat_raw",
+    "name": "Raw Harvest Seeds",
+    "slug": "raw"
+  }
+]

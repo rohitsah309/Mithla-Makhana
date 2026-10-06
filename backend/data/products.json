@@ -1,0 +1,478 @@
+[
+  {
+    "_id": "prod_plain_01",
+    "name": "Premium Plain Makhana",
+    "slug": "premium-plain-makhana",
+    "description": "Hand-selected, extra-large premium fox nuts naturally harvested from the wetland ecosystems of Mithila, Bihar. Light, crisp, snow-white, and packed with plant-based protein and minerals. Perfect for daily snacking or gentle roasting at home with pure desi ghee.",
+    "shortDescription": "100% natural, handpicked extra-large makhana directly from Mithila wetlands.",
+    "price": 249,
+    "compareAtPrice": 299,
+    "images": [
+      "/images/plain-makhana-bowl.png",
+      "/images/heritage-seeds-burlap.png",
+      "/images/makhana-seeds-spoon.png"
+    ],
+    "category": "plain",
+    "weight": "250g",
+    "availableWeights": [
+      {
+        "weight": "100g",
+        "price": 110,
+        "compareAtPrice": 135
+      },
+      {
+        "weight": "250g",
+        "price": 249,
+        "compareAtPrice": 299
+      },
+      {
+        "weight": "500g",
+        "price": 475,
+        "compareAtPrice": 560
+      },
+      {
+        "weight": "1kg",
+        "price": 920,
+        "compareAtPrice": 1099
+      }
+    ],
+    "ingredients": [
+      "100% Pure Mithila Popped Fox Nuts (Lotus Seeds)"
+    ],
+    "nutrition": {
+      "calories": "347 kcal per 100g",
+      "protein": "9.7g",
+      "carbs": "76.9g",
+      "fat": "0.1g",
+      "fiber": "14.5g",
+      "calcium": "60mg"
+    },
+    "benefits": [
+      "Rich in plant protein and dietary fiber",
+      "Low in sodium and zero trans-fat",
+      "Naturally gluten-free superfood",
+      "Good source of magnesium and potassium",
+      "Can be part of a balanced daily diet"
+    ],
+    "storageInstructions": "Store in an airtight container in a cool, dry place away from direct sunlight and moisture.",
+    "deliveryInfo": "Standard delivery across India within 3-5 business days. Packed in moisture-lock pouches to preserve crispness.",
+    "stock": 130,
+    "rating": 4.9,
+    "reviewsCount": 48,
+    "reviews": [
+      {
+        "id": "rev_1",
+        "name": "Anjali Sharma",
+        "rating": 5,
+        "comment": "The quality is noticeably superior to grocery store brands. Very large, clean, and popped evenly!",
+        "createdAt": "2026-09-15T00:00:00.000Z"
+      },
+      {
+        "id": "rev_2",
+        "name": "Vikram Choudhary",
+        "rating": 5,
+        "comment": "Authentic Bihar makhana taste. Crisp and fresh. Our entire family loves it.",
+        "createdAt": "2026-09-22T00:00:00.000Z"
+      }
+    ],
+    "featured": true,
+    "isAvailable": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-04T13:21:46.208Z"
+  },
+  {
+    "_id": "prod_roasted_02",
+    "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+    "slug": "roasted-makhana",
+    "description": "Gently roasted in small batches to perfection with a light touch of pure cow ghee and mineral-rich Himalayan pink salt. Maximum crunch with every bite, without any oily aftertaste.",
+    "shortDescription": "Slow-roasted in pure ghee with authentic Himalayan pink salt.",
+    "price": 279,
+    "compareAtPrice": 320,
+    "images": [
+      "/images/roasted-makhana-jar.png",
+      "/images/plain-makhana-bowl.png",
+      "/images/cheese-flavoured-dip.png"
+    ],
+    "category": "roasted",
+    "weight": "200g",
+    "availableWeights": [
+      {
+        "weight": "100g",
+        "price": 145,
+        "compareAtPrice": 170
+      },
+      {
+        "weight": "200g",
+        "price": 279,
+        "compareAtPrice": 320
+      },
+      {
+        "weight": "400g",
+        "price": 530,
+        "compareAtPrice": 620
+      }
+    ],
+    "ingredients": [
+      "Mithila Fox Nuts",
+      "Cold-pressed Pure Ghee",
+      "Himalayan Pink Salt",
+      "Rock Salt"
+    ],
+    "nutrition": {
+      "calories": "380 kcal per 100g",
+      "protein": "9.2g",
+      "carbs": "72.0g",
+      "fat": "4.5g",
+      "fiber": "13.8g",
+      "calcium": "58mg"
+    },
+    "benefits": [
+      "Gently slow roasted for effortless digestion",
+      "Flavored with pure ghee and mineral salts",
+      "Satisfying teatime crunch without artificial additives",
+      "Guilt-free alternative to deep-fried snacks"
+    ],
+    "storageInstructions": "Keep in an airtight jar. Seal tightly after each use to retain crunchiness.",
+    "deliveryInfo": "Delivered in food-grade resealable pouches within 3-5 working days.",
+    "stock": 120,
+    "rating": 4.8,
+    "reviewsCount": 36,
+    "reviews": [
+      {
+        "id": "rev_3",
+        "name": "Sunita Mishra",
+        "rating": 5,
+        "comment": "So fragrant with the aroma of pure ghee! You can tell it is freshly roasted.",
+        "createdAt": "2026-09-18T00:00:00.000Z"
+      }
+    ],
+    "featured": true,
+    "isAvailable": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  },
+  {
+    "_id": "prod_masala_03",
+    "name": "Mithila Masala Makhana (Spice Blend)",
+    "slug": "masala-makhana",
+    "description": "Coated in a fragrant secret blend of traditional spices including roasted cumin, black pepper, amchur (dry mango), and mild Kashmiri paprika. An irresistible snack for tea time and family gatherings.",
+    "shortDescription": "Crispy fox nuts tossed in tangy, aromatic traditional Indian spices.",
+    "price": 299,
+    "compareAtPrice": 349,
+    "images": [
+      "/images/roasted-makhana-jar.png",
+      "/images/cheese-flavoured-dip.png",
+      "/images/plain-makhana-bowl.png"
+    ],
+    "category": "masala",
+    "weight": "200g",
+    "availableWeights": [
+      {
+        "weight": "100g",
+        "price": 155,
+        "compareAtPrice": 180
+      },
+      {
+        "weight": "200g",
+        "price": 299,
+        "compareAtPrice": 349
+      },
+      {
+        "weight": "400g",
+        "price": 570,
+        "compareAtPrice": 660
+      }
+    ],
+    "ingredients": [
+      "Mithila Fox Nuts",
+      "Cold-pressed Edible Oil",
+      "Roasted Cumin",
+      "Black Pepper",
+      "Dry Mango Powder",
+      "Kashmiri Red Chilli",
+      "Black Salt",
+      "Asafoetida"
+    ],
+    "nutrition": {
+      "calories": "390 kcal per 100g",
+      "protein": "9.0g",
+      "carbs": "70.5g",
+      "fat": "5.2g",
+      "fiber": "14.0g",
+      "calcium": "62mg"
+    },
+    "benefits": [
+      "Tangy spices enhance appetite naturally",
+      "Packed with digestive spices like cumin and black pepper",
+      "High in fiber and satisfying crunch",
+      "No added MSG or synthetic colors"
+    ],
+    "storageInstructions": "Store in an airtight jar. Best consumed within 30 days of opening for peak crispness.",
+    "deliveryInfo": "Fast dispatch within 24 hours. Packed in barrier foil pouches.",
+    "stock": 95,
+    "rating": 4.9,
+    "reviewsCount": 52,
+    "reviews": [
+      {
+        "id": "rev_4",
+        "name": "Pradeep Jha",
+        "rating": 5,
+        "comment": "Reminds me of snacking back home in Darbhanga! Perfect balance of spice and tang.",
+        "createdAt": "2026-09-24T00:00:00.000Z"
+      }
+    ],
+    "featured": true,
+    "isAvailable": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  },
+  {
+    "_id": "prod_peri_04",
+    "name": "Zesty Peri Peri Makhana",
+    "slug": "peri-peri-makhana",
+    "description": "Bold, spicy, and tangy African bird’s eye chili inspired peri peri seasoning generously dusted over crispy roasted makhana. A modern gourmet twist for flavour lovers who enjoy a touch of heat.",
+    "shortDescription": "Zesty, spicy, and tangy Peri Peri seasoning on crisp roasted makhana.",
+    "price": 299,
+    "compareAtPrice": 349,
+    "images": [
+      "/images/cheese-flavoured-dip.png",
+      "/images/roasted-makhana-jar.png",
+      "/images/plain-makhana-bowl.png"
+    ],
+    "category": "flavoured",
+    "weight": "200g",
+    "availableWeights": [
+      {
+        "weight": "100g",
+        "price": 155,
+        "compareAtPrice": 180
+      },
+      {
+        "weight": "200g",
+        "price": 299,
+        "compareAtPrice": 349
+      },
+      {
+        "weight": "400g",
+        "price": 570,
+        "compareAtPrice": 660
+      }
+    ],
+    "ingredients": [
+      "Mithila Fox Nuts",
+      "Edible Vegetable Oil",
+      "Peri Peri Seasoning (Garlic, Onion, Paprika, Oregano, Citric Acid, Chili)",
+      "Rock Salt"
+    ],
+    "nutrition": {
+      "calories": "385 kcal per 100g",
+      "protein": "8.8g",
+      "carbs": "71.2g",
+      "fat": "4.8g",
+      "fiber": "13.5g",
+      "calcium": "55mg"
+    },
+    "benefits": [
+      "Exciting kick of spice without greasy heaviness",
+      "Rich in antioxidants from natural herbs and chili",
+      "Plant protein powerhouse snack"
+    ],
+    "storageInstructions": "Store in an airtight container in a cool, dark pantry.",
+    "deliveryInfo": "Ships within 24-48 hours. Carefully cushioned in recyclable packaging.",
+    "stock": 80,
+    "rating": 4.7,
+    "reviewsCount": 29,
+    "reviews": [],
+    "featured": true,
+    "isAvailable": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  },
+  {
+    "_id": "prod_cheese_05",
+    "name": "White Cheddar Cheese & Herbs Makhana",
+    "slug": "cheese-makhana",
+    "description": "Smooth, savory white cheddar and mild herb blend coated over crisp popped makhana. Loved by children and adults alike for wholesome guilt-free snacking during study sessions or movie nights.",
+    "shortDescription": "Savory cheddar cheese and Italian herbs on crunchy roasted makhana.",
+    "price": 319,
+    "compareAtPrice": 369,
+    "images": [
+      "/images/cheese-flavoured-dip.png",
+      "/images/roasted-makhana-jar.png",
+      "/images/plain-makhana-bowl.png"
+    ],
+    "category": "flavoured",
+    "weight": "200g",
+    "availableWeights": [
+      {
+        "weight": "100g",
+        "price": 165,
+        "compareAtPrice": 190
+      },
+      {
+        "weight": "200g",
+        "price": 319,
+        "compareAtPrice": 369
+      },
+      {
+        "weight": "400g",
+        "price": 610,
+        "compareAtPrice": 700
+      }
+    ],
+    "ingredients": [
+      "Mithila Fox Nuts",
+      "Edible Vegetable Oil",
+      "Cheese Powder",
+      "Dried Parsley",
+      "Oregano",
+      "Onion Powder",
+      "Sea Salt"
+    ],
+    "nutrition": {
+      "calories": "410 kcal per 100g",
+      "protein": "10.5g",
+      "carbs": "68.0g",
+      "fat": "6.5g",
+      "fiber": "12.8g",
+      "calcium": "120mg"
+    },
+    "benefits": [
+      "Calcium boost from real cheese seasoning",
+      "Kid-approved healthy tiffin snack",
+      "Zero refined sugar and trans-fat free"
+    ],
+    "storageInstructions": "Store in an airtight container away from warmth and humidity.",
+    "deliveryInfo": "Delivered in airtight pouches within 3-5 days across all PIN codes.",
+    "stock": 70,
+    "rating": 4.8,
+    "reviewsCount": 41,
+    "reviews": [],
+    "featured": false,
+    "isAvailable": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  },
+  {
+    "_id": "prod_caramel_06",
+    "name": "Caramel & Organic Jaggery Makhana",
+    "slug": "caramel-jaggery-makhana",
+    "description": "Golden crunchy makhana glazed with pure organic Bihar jaggery (gur) and a gentle whisper of green cardamom. The ideal natural dessert snack to satisfy sweet cravings wholesome way.",
+    "shortDescription": "Sweet and crunchy fox nuts glazed in natural Bihar jaggery and cardamom.",
+    "price": 329,
+    "compareAtPrice": 380,
+    "images": [
+      "/images/roasted-makhana-jar.png",
+      "/images/plain-makhana-bowl.png",
+      "/images/makhana-seeds-spoon.png"
+    ],
+    "category": "sweet",
+    "weight": "200g",
+    "availableWeights": [
+      {
+        "weight": "100g",
+        "price": 170,
+        "compareAtPrice": 200
+      },
+      {
+        "weight": "200g",
+        "price": 329,
+        "compareAtPrice": 380
+      },
+      {
+        "weight": "400g",
+        "price": 630,
+        "compareAtPrice": 720
+      }
+    ],
+    "ingredients": [
+      "Mithila Fox Nuts",
+      "Pure Organic Jaggery (Gur)",
+      "Desi Ghee",
+      "Green Cardamom",
+      "Himalayan Pink Salt"
+    ],
+    "nutrition": {
+      "calories": "415 kcal per 100g",
+      "protein": "7.8g",
+      "carbs": "82.0g",
+      "fat": "4.0g",
+      "fiber": "11.5g",
+      "calcium": "75mg"
+    },
+    "benefits": [
+      "Naturally sweetened with iron-rich organic jaggery",
+      "Zero refined white sugar or artificial sweeteners",
+      "Comforting dessert snack with digestive spices"
+    ],
+    "storageInstructions": "Keep in an airtight jar in a cool place. Do not refrigerate.",
+    "deliveryInfo": "Shipped freshly coated within 24 hours of ordering.",
+    "stock": 85,
+    "rating": 4.9,
+    "reviewsCount": 64,
+    "reviews": [],
+    "featured": true,
+    "isAvailable": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  },
+  {
+    "_id": "prod_raw_07",
+    "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+    "slug": "raw-makhana-seeds",
+    "description": "Cleaned, sun-dried natural lotus seeds directly sourced from Mithila’s local agricultural ponds. Traditional raw harvest suitable for home preparation, culinary experiments, and authentic recipes.",
+    "shortDescription": "Authentic harvest lotus seeds sourced directly from Mithila wetlands.",
+    "price": 349,
+    "compareAtPrice": 399,
+    "images": [
+      "/images/makhana-seeds-spoon.png",
+      "/images/heritage-seeds-burlap.png",
+      "/images/plain-makhana-bowl.png"
+    ],
+    "category": "raw",
+    "weight": "500g",
+    "availableWeights": [
+      {
+        "weight": "250g",
+        "price": 180,
+        "compareAtPrice": 210
+      },
+      {
+        "weight": "500g",
+        "price": 349,
+        "compareAtPrice": 399
+      },
+      {
+        "weight": "1kg",
+        "price": 670,
+        "compareAtPrice": 760
+      }
+    ],
+    "ingredients": [
+      "100% Unprocessed Lotus Seeds (Euryale Ferox)"
+    ],
+    "nutrition": {
+      "calories": "350 kcal per 100g",
+      "protein": "11.2g",
+      "carbs": "74.5g",
+      "fat": "0.2g",
+      "fiber": "15.0g",
+      "calcium": "70mg"
+    },
+    "benefits": [
+      "Pure raw harvest from natural aquatic ecosystem",
+      "High natural protein concentration",
+      "Versatile for traditional Ayurvedic & culinary preparations"
+    ],
+    "storageInstructions": "Store in a dry, ventilated container away from dampness.",
+    "deliveryInfo": "Carefully sorted and packaged. Standard delivery 3-5 days.",
+    "stock": 60,
+    "rating": 4.8,
+    "reviewsCount": 19,
+    "reviews": [],
+    "featured": false,
+    "isAvailable": true,
+    "createdAt": "2026-10-01T07:57:32.984Z",
+    "updatedAt": "2026-10-01T07:57:32.984Z"
+  }
+]

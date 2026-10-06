@@ -1,0 +1,6535 @@
+[
+  {
+    "_id": "ord_muveyj68qlibcg4",
+    "orderId": "MM-2026-5872",
+    "invoiceNumber": "INV-2026-5872",
+    "invoiceDate": "2026-10-05T15:37:37.424Z",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-05T15:37:37.424Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-05T15:37:37.424Z",
+    "updatedAt": "2026-10-05T15:37:37.424Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Talha Khan",
+      "email": "customer@mithilamakhana.com",
+      "phone": "8521456985"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Talha Khan",
+      "mobile": "8521456985",
+      "email": "customer@mithilamakhana.com",
+      "address": "Talegaon",
+      "city": "Pune",
+      "state": "Bihar",
+      "pincode": "410507"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_TkHLLul8lCVmUN",
+    "razorpayPaymentId": "pay_TkHLRa6wqMBZVt"
+  },
+  {
+    "_id": "ord_muve3igntsle0o1",
+    "orderId": "MM-2026-2202",
+    "invoiceNumber": "INV-2026-2202",
+    "invoiceDate": "2026-10-05T15:13:30.167Z",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-05T15:13:30.167Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-05T15:13:30.167Z",
+    "updatedAt": "2026-10-05T15:13:30.167Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Talha Khan",
+      "email": "customer@mithilamakhana.com",
+      "phone": "8521456985"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Talha Khan",
+      "mobile": "8521456985",
+      "email": "customer@mithilamakhana.com",
+      "address": "Talegaon",
+      "city": "Pune",
+      "state": "Bihar",
+      "pincode": "410507"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_TkGv8vWEivnEug",
+    "razorpayPaymentId": "pay_TkGvyMTRVQSNSC"
+  },
+  {
+    "_id": "ord_muvdrrni2p979r1",
+    "orderId": "MM-2026-5910",
+    "invoiceNumber": "INV-2026-5910",
+    "invoiceDate": "2026-10-05T15:04:22.206Z",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "pending",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-05T15:04:22.206Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-05T15:04:22.206Z",
+    "updatedAt": "2026-10-05T15:04:22.206Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Talha Khan",
+      "email": "customer@mithilamakhana.com",
+      "phone": "8521456985"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "200g",
+        "quantity": 1,
+        "subtotal": 319
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/makhana-seeds-spoon.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "200g",
+        "quantity": 1,
+        "subtotal": 329
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "200g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Talha Khan",
+      "mobile": "8521456985",
+      "email": "customer@mithilamakhana.com",
+      "address": "Talegaon",
+      "city": "Pune",
+      "state": "Bihar",
+      "pincode": "410507"
+    },
+    "subtotal": 1774,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1774,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_mutrmcor7kdokrb",
+    "orderId": "MM-2026-2953",
+    "invoiceNumber": "INV-2026-2953",
+    "invoiceDate": "2026-10-04T11:56:31.803Z",
+    "orderStatus": "Shipped",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T11:56:31.803Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-10-04T13:26:28.340Z",
+        "notes": "Status updated by Admin Mithila Makhana Admin"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-10-04T13:29:39.941Z",
+        "notes": "Test verification"
+      },
+      {
+        "status": "Payment: Pending",
+        "timestamp": "2026-10-04T13:29:39.943Z",
+        "notes": "Reverted back"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-10-04T13:30:29.690Z",
+        "notes": "Payment status set to \"completed\" by Admin Mithila Makhana Admin"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-10-04T16:29:25.769Z",
+        "notes": "Dispatched via Delhivery Express from Darbhanga Hub"
+      }
+    ],
+    "createdAt": "2026-10-04T11:56:31.803Z",
+    "updatedAt": "2026-10-04T16:29:25.768Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Talha Khan",
+      "email": "customer@mithilamakhana.com",
+      "phone": "8521456985"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Talha Khan",
+      "mobile": "8521456985",
+      "email": "customer@mithilamakhana.com",
+      "address": "Talegaon",
+      "city": "Pune",
+      "state": "Bihar",
+      "pincode": "410507"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": "",
+    "courier": "Delhivery Express",
+    "trackingNumber": "MMTRK888999IN",
+    "estimatedDelivery": "2026-10-10"
+  },
+  {
+    "_id": "ord_mutrg15ztpucnq4",
+    "orderId": "MM-2026-8326",
+    "invoiceNumber": "INV-2026-8326",
+    "invoiceDate": "2026-10-04T11:51:36.935Z",
+    "orderStatus": "Confirmed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T11:51:36.935Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Confirmed",
+        "timestamp": "2026-10-04T13:26:40.662Z",
+        "notes": "Status updated by Admin Mithila Makhana Admin"
+      }
+    ],
+    "createdAt": "2026-10-04T11:51:36.935Z",
+    "updatedAt": "2026-10-04T13:26:40.662Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "200g",
+        "quantity": 1,
+        "subtotal": 329
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "mobile": "9812345678",
+      "email": "customer@mithilamakhana.com",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 329,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 379,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_Tjox9EMYVFMLab",
+    "razorpayPaymentId": "pay_Tjoxd58pRarDhk"
+  },
+  {
+    "_id": "ord_mutqqtm2afovmbn",
+    "orderId": "MM-2026-5616",
+    "invoiceNumber": "INV-2026-5616",
+    "invoiceDate": "2026-10-04T11:32:00.746Z",
+    "orderStatus": "Processing",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T11:32:00.746Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Processing",
+        "timestamp": "2026-10-04T13:26:44.699Z",
+        "notes": "Status updated by Admin Mithila Makhana Admin"
+      }
+    ],
+    "createdAt": "2026-10-04T11:32:00.746Z",
+    "updatedAt": "2026-10-04T13:26:44.699Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "200g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "mobile": "9812345678",
+      "email": "customer@mithilamakhana.com",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 299,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 349,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_TjocqFkZhPMsRS",
+    "razorpayPaymentId": "pay_TjocubjnINeML5"
+  },
+  {
+    "_id": "ord_mutqjrcnrxop3m6",
+    "orderId": "MM-2026-1811",
+    "invoiceNumber": "INV-2026-1811",
+    "invoiceDate": "2026-10-04T11:26:31.223Z",
+    "orderStatus": "Packed",
+    "paymentStatus": "pending",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T11:26:31.223Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Packed",
+        "timestamp": "2026-10-04T13:26:50.490Z",
+        "notes": "Status updated by Admin Mithila Makhana Admin"
+      }
+    ],
+    "createdAt": "2026-10-04T11:26:31.223Z",
+    "updatedAt": "2026-10-04T13:26:50.490Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "200g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "mobile": "9812345678",
+      "email": "customer@mithilamakhana.com",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 279,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 329,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_mutqja8h8ndkfz5",
+    "orderId": "MM-2026-8678",
+    "invoiceNumber": "INV-2026-8678",
+    "invoiceDate": "2026-10-04T11:26:09.041Z",
+    "orderStatus": "Shipped",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T11:26:09.041Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-10-04T13:27:01.529Z",
+        "notes": "Status updated by Admin Mithila Makhana Admin"
+      }
+    ],
+    "createdAt": "2026-10-04T11:26:09.041Z",
+    "updatedAt": "2026-10-04T13:27:01.529Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "mobile": "9812345678",
+      "email": "customer@mithilamakhana.com",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_TjoWaKMSam8xHg",
+    "razorpayPaymentId": "pay_TjoWi0StXeOMLf"
+  },
+  {
+    "_id": "ord_mutq9mp973r3x0k",
+    "orderId": "MM-2026-2878",
+    "invoiceNumber": "INV-2026-2878",
+    "invoiceDate": "2026-10-04T11:18:38.637Z",
+    "orderStatus": "Out for Delivery",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T11:18:38.637Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Out for Delivery",
+        "timestamp": "2026-10-04T13:27:05.122Z",
+        "notes": "Status updated by Admin Mithila Makhana Admin"
+      }
+    ],
+    "createdAt": "2026-10-04T11:18:38.637Z",
+    "updatedAt": "2026-10-04T13:27:05.122Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "200g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "mobile": "9812345678",
+      "email": "customer@mithilamakhana.com",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 299,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 349,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_mithila_1791112715729_4628",
+    "razorpayPaymentId": "pay_demo_1791112718618"
+  },
+  {
+    "_id": "ord_mutpq063vbaoz9t",
+    "orderId": "MM-2026-1909",
+    "invoiceNumber": "INV-2026-1909",
+    "invoiceDate": "2026-10-04T11:03:22.971Z",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T11:03:22.971Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-04T11:03:22.971Z",
+    "updatedAt": "2026-10-04T11:03:22.971Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "200g",
+        "quantity": 1,
+        "subtotal": 299
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "mobile": "9812345678",
+      "email": "customer@mithilamakhana.com",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 548,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 548,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_mithila_1791111798731_2266",
+    "razorpayPaymentId": "pay_demo_1791111802951"
+  },
+  {
+    "_id": "ord_mutpo14yccisz9s",
+    "orderId": "MM-2026-6186",
+    "invoiceNumber": "INV-2026-6186",
+    "invoiceDate": "2026-10-04T11:01:50.914Z",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T11:01:50.914Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-04T11:01:50.914Z",
+    "updatedAt": "2026-10-04T11:01:50.914Z",
+    "user": "guest",
+    "customer": {
+      "name": "Aarti Mishra",
+      "email": "aarti@example.com",
+      "phone": "9876543210"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "200g",
+        "quantity": 2,
+        "subtotal": 558
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarti Mishra",
+      "mobile": "9876543210",
+      "email": "aarti@example.com",
+      "address": "Station Road, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 558,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 558,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_mithila_test_9999",
+    "razorpayPaymentId": "pay_demo_success_8888"
+  },
+  {
+    "_id": "ord_mutpnno0rsxtme2",
+    "orderId": "MM-2026-9956",
+    "invoiceNumber": "INV-2026-9956",
+    "invoiceDate": "2026-10-04T11:01:33.456Z",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "pending",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T11:01:33.456Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-04T11:01:33.456Z",
+    "updatedAt": "2026-10-04T11:01:33.456Z",
+    "user": "guest",
+    "customer": {
+      "name": "Ramesh Kumar",
+      "email": "ramesh@example.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ramesh Kumar",
+      "mobile": "9812345678",
+      "email": "ramesh@example.com",
+      "address": "Flat 101, Mithila Apartments",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 498,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 548,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_muto94ykcoa8unr",
+    "orderId": "MM-2026-5433",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T10:22:16.412Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-04T10:22:16.412Z",
+    "updatedAt": "2026-10-04T10:22:16.412Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "mobile": "9812345678",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_mithila_1791109335189_3960",
+    "razorpayPaymentId": "pay_demo_1791109336398"
+  },
+  {
+    "_id": "ord_muto68gurg0kead",
+    "orderId": "MM-2026-1763",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T10:20:00.990Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-04T10:20:00.990Z",
+    "updatedAt": "2026-10-04T10:20:00.990Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "mobile": "9812345678",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_mithila_1791109199776_2995",
+    "razorpayPaymentId": "pay_demo_1791109200980"
+  },
+  {
+    "_id": "ord_muto5qg45edytcg",
+    "orderId": "MM-2026-1986",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T10:19:37.636Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-04T10:19:37.636Z",
+    "updatedAt": "2026-10-04T10:19:37.636Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 8,
+        "subtotal": 1992
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "mobile": "9812345678",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 1992,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1992,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_mithila_1791109176374_4635",
+    "razorpayPaymentId": "pay_demo_1791109172790"
+  },
+  {
+    "_id": "ord_mutnxghxwz1isl0",
+    "orderId": "MM-2026-4600",
+    "orderStatus": "Confirmed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-04T10:13:11.493Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Confirmed",
+        "timestamp": "2026-10-04T10:16:23.002Z",
+        "notes": "Status updated by Admin Mithila Makhana Admin"
+      }
+    ],
+    "createdAt": "2026-10-04T10:13:11.493Z",
+    "updatedAt": "2026-10-04T10:16:23.002Z",
+    "user": "usr_admin_01",
+    "customer": {
+      "name": "Mithila Makhana Admin",
+      "email": "admin@mithilamakhana.com",
+      "phone": "9876543210"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Mithila Makhana Admin",
+      "email": "admin@mithilamakhana.com",
+      "mobile": "9876543210",
+      "address": "Mithila Heritage Estate, Darbhanga Road",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_mithila_1791108790272_7806",
+    "razorpayPaymentId": "pay_demo_1791108791482"
+  },
+  {
+    "_id": "ord_mup97febreu6tir",
+    "orderId": "MM-2026-1525",
+    "orderStatus": "Order Placed",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-01T08:09:57.683Z",
+        "notes": "Order confirmed and placed successfully"
+      }
+    ],
+    "createdAt": "2026-10-01T08:09:57.683Z",
+    "updatedAt": "2026-10-01T08:09:57.683Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "200g",
+        "quantity": 2,
+        "subtotal": 598
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "mobile": "9812345678",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 598,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 598,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_mithila_1790842196466_4741",
+    "razorpayPaymentId": "pay_demo_1790842197678"
+  },
+  {
+    "_id": "ord_mup94r6qvdajkzp",
+    "orderId": "MM-2026-8503",
+    "orderStatus": "Packed",
+    "paymentStatus": "pending",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-10-01T08:07:52.994Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Packed",
+        "timestamp": "2026-10-01T08:08:15.583Z",
+        "notes": "Batch sealed in moisture barrier pouch"
+      }
+    ],
+    "createdAt": "2026-10-01T08:07:52.994Z",
+    "updatedAt": "2026-10-01T08:08:15.582Z",
+    "user": "guest",
+    "customer": {
+      "name": "Test Customer",
+      "email": "test@example.com",
+      "phone": "9876543210"
+    },
+    "items": [
+      {
+        "quantity": 2,
+        "name": "Premium Plain Makhana",
+        "weight": "250g",
+        "subtotal": 498,
+        "price": 249,
+        "product": "prod_plain_01",
+        "image": "/images/plain-makhana-bowl.png"
+      }
+    ],
+    "shippingAddress": {
+      "city": "Madhubani",
+      "fullName": "Test Customer",
+      "pincode": "847211",
+      "state": "Bihar",
+      "email": "test@example.com",
+      "mobile": "9876543210",
+      "address": "123 Mithila Road"
+    },
+    "subtotal": 498,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 548,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_8375_0",
+    "orderId": "MM-2026-8375",
+    "invoiceNumber": "INV-2026-8375",
+    "invoiceDate": "2026-09-29T12:57:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-29T12:57:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-30T12:57:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-10-02T12:57:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-10-02T12:57:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-09-29T12:57:00.000Z",
+    "updatedAt": "2026-09-29T12:57:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Priya Verma",
+      "email": "priya.verma@outlook.com",
+      "phone": "9845123987"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Priya Verma",
+      "mobile": "9845123987",
+      "email": "priya.verma@outlook.com",
+      "address": "Tower Chowk, Station Road",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 319,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 369,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_sample_01",
+    "orderId": "MM-2026-7841",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohit Kumar",
+      "email": "customer@mithilamakhana.com",
+      "phone": "+91 9812345678"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "200g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohit Kumar",
+      "mobile": "+91 9812345678",
+      "email": "customer@mithilamakhana.com",
+      "address": "Flat 402, Lotus Greens, Boring Road",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 797,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 797,
+    "paymentStatus": "completed",
+    "paymentMethod": "razorpay",
+    "orderStatus": "Shipped",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-29T07:57:33.128Z",
+        "notes": "Order placed online"
+      },
+      {
+        "status": "Confirmed",
+        "timestamp": "2026-09-29T12:45:33.128Z",
+        "notes": "Payment verified"
+      },
+      {
+        "status": "Processing",
+        "timestamp": "2026-09-29T19:57:33.128Z",
+        "notes": "Batch freshly packaged"
+      },
+      {
+        "status": "Packed",
+        "timestamp": "2026-09-30T07:57:33.128Z",
+        "notes": "Sealed in moisture-proof barrier pouches"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-30T19:57:33.128Z",
+        "notes": "Handed over to courier express"
+      }
+    ],
+    "razorpayOrderId": "order_MithilaTest101",
+    "razorpayPaymentId": "pay_MithilaTest202",
+    "createdAt": "2026-09-29T07:57:33.128Z",
+    "updatedAt": "2026-10-01T07:57:33.128Z"
+  },
+  {
+    "_id": "ord_2026_2358_7",
+    "orderId": "MM-2026-2358",
+    "invoiceNumber": "INV-2026-2358",
+    "invoiceDate": "2026-09-28T09:09:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-28T09:09:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-29T09:09:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-10-01T09:09:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-09-28T09:09:00.000Z",
+    "updatedAt": "2026-09-28T09:09:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@gmail.com",
+      "phone": "9823411223"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarav Sharma",
+      "mobile": "9823411223",
+      "email": "aarav.sharma@gmail.com",
+      "address": "Boring Road, Anandpuri",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 1007,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1007,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20262358mm",
+    "razorpayPaymentId": "pay_20262358mm"
+  },
+  {
+    "_id": "ord_2026_1237_1",
+    "orderId": "MM-2026-1237",
+    "invoiceNumber": "INV-2026-1237",
+    "invoiceDate": "2026-09-27T17:06:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-27T17:06:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-28T17:06:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-09-30T17:06:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-09-27T17:06:00.000Z",
+    "updatedAt": "2026-09-27T17:06:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Ananya Jha",
+      "email": "ananya.jha@mithila.org",
+      "phone": "9876123450"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ananya Jha",
+      "mobile": "9876123450",
+      "email": "ananya.jha@mithila.org",
+      "address": "Shanti Kunj, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 1007,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1007,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20261237mm",
+    "razorpayPaymentId": "pay_20261237mm"
+  },
+  {
+    "_id": "ord_2026_9897_2",
+    "orderId": "MM-2026-9897",
+    "invoiceNumber": "INV-2026-9897",
+    "invoiceDate": "2026-09-25T16:54:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-25T16:54:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-26T16:54:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-09-28T16:54:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-09-25T16:54:00.000Z",
+    "updatedAt": "2026-09-25T16:54:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 1126,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1126,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20269897mm",
+    "razorpayPaymentId": "pay_20269897mm"
+  },
+  {
+    "_id": "ord_2026_8370_9",
+    "orderId": "MM-2026-8370",
+    "invoiceNumber": "INV-2026-8370",
+    "invoiceDate": "2026-09-18T12:35:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-18T12:35:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-19T12:35:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-09-21T12:35:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-09-21T12:35:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-09-18T12:35:00.000Z",
+    "updatedAt": "2026-09-18T12:35:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Ananya Jha",
+      "email": "ananya.jha@mithila.org",
+      "phone": "9876123450"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ananya Jha",
+      "mobile": "9876123450",
+      "email": "ananya.jha@mithila.org",
+      "address": "Shanti Kunj, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 498,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 548,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_3291_6",
+    "orderId": "MM-2026-3291",
+    "invoiceNumber": "INV-2026-3291",
+    "invoiceDate": "2026-09-15T12:45:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-15T12:45:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-16T12:45:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-09-18T12:45:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-09-18T12:45:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-09-15T12:45:00.000Z",
+    "updatedAt": "2026-09-15T12:45:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aditya Nair",
+      "email": "aditya.n@gmail.com",
+      "phone": "9447112233"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aditya Nair",
+      "mobile": "9447112233",
+      "email": "aditya.n@gmail.com",
+      "address": "Indiranagar, 100ft Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    "subtotal": 319,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 369,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_7488_5",
+    "orderId": "MM-2026-7488",
+    "invoiceNumber": "INV-2026-7488",
+    "invoiceDate": "2026-09-10T17:34:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-10T17:34:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-11T17:34:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-09-13T17:34:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-09-10T17:34:00.000Z",
+    "updatedAt": "2026-09-10T17:34:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 1575,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1575,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20267488mm",
+    "razorpayPaymentId": "pay_20267488mm"
+  },
+  {
+    "_id": "ord_2026_8696_8",
+    "orderId": "MM-2026-8696",
+    "invoiceNumber": "INV-2026-8696",
+    "invoiceDate": "2026-09-08T16:15:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-08T16:15:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-09T16:15:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-09-11T16:15:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-09-08T16:15:00.000Z",
+    "updatedAt": "2026-09-08T16:15:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Priya Verma",
+      "email": "priya.verma@outlook.com",
+      "phone": "9845123987"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Priya Verma",
+      "mobile": "9845123987",
+      "email": "priya.verma@outlook.com",
+      "address": "Tower Chowk, Station Road",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 1126,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1126,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268696mm",
+    "razorpayPaymentId": "pay_20268696mm"
+  },
+  {
+    "_id": "ord_2026_7467_3",
+    "orderId": "MM-2026-7467",
+    "invoiceNumber": "INV-2026-7467",
+    "invoiceDate": "2026-09-02T10:13:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-02T10:13:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-03T10:13:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-09-05T10:13:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-09-05T10:13:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-09-02T10:13:00.000Z",
+    "updatedAt": "2026-09-02T10:13:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 498,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 548,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_8255_4",
+    "orderId": "MM-2026-8255",
+    "invoiceNumber": "INV-2026-8255",
+    "invoiceDate": "2026-09-01T10:20:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-09-01T10:20:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-09-02T10:20:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-09-04T10:20:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-09-01T10:20:00.000Z",
+    "updatedAt": "2026-09-01T10:20:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 877,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 877,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268255mm",
+    "razorpayPaymentId": "pay_20268255mm"
+  },
+  {
+    "_id": "ord_2026_6561_4",
+    "orderId": "MM-2026-6561",
+    "invoiceNumber": "INV-2026-6561",
+    "invoiceDate": "2026-08-27T10:28:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-08-27T10:28:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-08-28T10:28:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-30T10:28:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-08-27T10:28:00.000Z",
+    "updatedAt": "2026-08-27T10:28:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 807,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 807,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20266561mm",
+    "razorpayPaymentId": "pay_20266561mm"
+  },
+  {
+    "_id": "ord_2026_4996_7",
+    "orderId": "MM-2026-4996",
+    "invoiceNumber": "INV-2026-4996",
+    "invoiceDate": "2026-08-23T20:13:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-08-23T20:13:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-08-24T20:13:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-26T20:13:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-08-23T20:13:00.000Z",
+    "updatedAt": "2026-08-23T20:13:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aditya Nair",
+      "email": "aditya.n@gmail.com",
+      "phone": "9447112233"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aditya Nair",
+      "mobile": "9447112233",
+      "email": "aditya.n@gmail.com",
+      "address": "Indiranagar, 100ft Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    "subtotal": 967,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 967,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20264996mm",
+    "razorpayPaymentId": "pay_20264996mm"
+  },
+  {
+    "_id": "ord_2026_8352_1",
+    "orderId": "MM-2026-8352",
+    "invoiceNumber": "INV-2026-8352",
+    "invoiceDate": "2026-08-22T14:14:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-08-22T14:14:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-08-23T14:14:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-25T14:14:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-08-22T14:14:00.000Z",
+    "updatedAt": "2026-08-22T14:14:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Priya Verma",
+      "email": "priya.verma@outlook.com",
+      "phone": "9845123987"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Priya Verma",
+      "mobile": "9845123987",
+      "email": "priya.verma@outlook.com",
+      "address": "Tower Chowk, Station Road",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 967,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 967,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268352mm",
+    "razorpayPaymentId": "pay_20268352mm"
+  },
+  {
+    "_id": "ord_2026_7693_0",
+    "orderId": "MM-2026-7693",
+    "invoiceNumber": "INV-2026-7693",
+    "invoiceDate": "2026-08-20T10:46:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-08-20T10:46:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-08-21T10:46:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-23T10:46:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-08-23T10:46:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-08-20T10:46:00.000Z",
+    "updatedAt": "2026-08-20T10:46:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@gmail.com",
+      "phone": "9823411223"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarav Sharma",
+      "mobile": "9823411223",
+      "email": "aarav.sharma@gmail.com",
+      "address": "Boring Road, Anandpuri",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 299,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 349,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_8713_8",
+    "orderId": "MM-2026-8713",
+    "invoiceNumber": "INV-2026-8713",
+    "invoiceDate": "2026-08-18T15:47:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-08-18T15:47:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-08-19T15:47:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-21T15:47:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-08-18T15:47:00.000Z",
+    "updatedAt": "2026-08-18T15:47:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@gmail.com",
+      "phone": "9823411223"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarav Sharma",
+      "mobile": "9823411223",
+      "email": "aarav.sharma@gmail.com",
+      "address": "Boring Road, Anandpuri",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 1276,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1276,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268713mm",
+    "razorpayPaymentId": "pay_20268713mm"
+  },
+  {
+    "_id": "ord_2026_8238_5",
+    "orderId": "MM-2026-8238",
+    "invoiceNumber": "INV-2026-8238",
+    "invoiceDate": "2026-08-18T15:24:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-08-18T15:24:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-08-19T15:24:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-21T15:24:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-08-18T15:24:00.000Z",
+    "updatedAt": "2026-08-18T15:24:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 1495,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1495,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268238mm",
+    "razorpayPaymentId": "pay_20268238mm"
+  },
+  {
+    "_id": "ord_2026_4176_3",
+    "orderId": "MM-2026-4176",
+    "invoiceNumber": "INV-2026-4176",
+    "invoiceDate": "2026-08-17T12:24:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-08-17T12:24:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-08-18T12:24:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-20T12:24:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-08-20T12:24:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-08-17T12:24:00.000Z",
+    "updatedAt": "2026-08-17T12:24:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 698,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 698,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_9459_6",
+    "orderId": "MM-2026-9459",
+    "invoiceNumber": "INV-2026-9459",
+    "invoiceDate": "2026-08-11T15:25:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-08-11T15:25:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-08-12T15:25:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-14T15:25:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-08-14T15:25:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-08-11T15:25:00.000Z",
+    "updatedAt": "2026-08-11T15:25:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 299,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 349,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_2485_2",
+    "orderId": "MM-2026-2485",
+    "invoiceNumber": "INV-2026-2485",
+    "invoiceDate": "2026-08-08T14:49:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-08-08T14:49:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-08-09T14:49:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-11T14:49:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-08-08T14:49:00.000Z",
+    "updatedAt": "2026-08-08T14:49:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Ananya Jha",
+      "email": "ananya.jha@mithila.org",
+      "phone": "9876123450"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ananya Jha",
+      "mobile": "9876123450",
+      "email": "ananya.jha@mithila.org",
+      "address": "Shanti Kunj, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 1276,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1276,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20262485mm",
+    "razorpayPaymentId": "pay_20262485mm"
+  },
+  {
+    "_id": "ord_2026_5955_3",
+    "orderId": "MM-2026-5955",
+    "invoiceNumber": "INV-2026-5955",
+    "invoiceDate": "2026-07-29T10:58:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-07-29T10:58:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-07-30T10:58:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-08-01T10:58:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-08-01T10:58:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-07-29T10:58:00.000Z",
+    "updatedAt": "2026-07-29T10:58:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Ananya Jha",
+      "email": "ananya.jha@mithila.org",
+      "phone": "9876123450"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ananya Jha",
+      "mobile": "9876123450",
+      "email": "ananya.jha@mithila.org",
+      "address": "Shanti Kunj, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 658,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 658,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_8764_0",
+    "orderId": "MM-2026-8764",
+    "invoiceNumber": "INV-2026-8764",
+    "invoiceDate": "2026-07-28T12:53:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-07-28T12:53:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-07-29T12:53:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-07-31T12:53:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-07-31T12:53:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-07-28T12:53:00.000Z",
+    "updatedAt": "2026-07-28T12:53:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aditya Nair",
+      "email": "aditya.n@gmail.com",
+      "phone": "9447112233"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aditya Nair",
+      "mobile": "9447112233",
+      "email": "aditya.n@gmail.com",
+      "address": "Indiranagar, 100ft Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    "subtotal": 279,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 329,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_8668_6",
+    "orderId": "MM-2026-8668",
+    "invoiceNumber": "INV-2026-8668",
+    "invoiceDate": "2026-07-28T09:21:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-07-28T09:21:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-07-29T09:21:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-07-31T09:21:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-07-31T09:21:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-07-28T09:21:00.000Z",
+    "updatedAt": "2026-07-28T09:21:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 279,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 329,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_6377_1",
+    "orderId": "MM-2026-6377",
+    "invoiceNumber": "INV-2026-6377",
+    "invoiceDate": "2026-07-18T19:13:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-07-18T19:13:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-07-19T19:13:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-07-21T19:13:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-07-18T19:13:00.000Z",
+    "updatedAt": "2026-07-18T19:13:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@gmail.com",
+      "phone": "9823411223"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarav Sharma",
+      "mobile": "9823411223",
+      "email": "aarav.sharma@gmail.com",
+      "address": "Boring Road, Anandpuri",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 917,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 917,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20266377mm",
+    "razorpayPaymentId": "pay_20266377mm"
+  },
+  {
+    "_id": "ord_2026_4487_4",
+    "orderId": "MM-2026-4487",
+    "invoiceNumber": "INV-2026-4487",
+    "invoiceDate": "2026-07-15T20:27:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-07-15T20:27:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-07-16T20:27:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-07-18T20:27:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-07-15T20:27:00.000Z",
+    "updatedAt": "2026-07-15T20:27:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 847,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 847,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20264487mm",
+    "razorpayPaymentId": "pay_20264487mm"
+  },
+  {
+    "_id": "ord_2026_2155_5",
+    "orderId": "MM-2026-2155",
+    "invoiceNumber": "INV-2026-2155",
+    "invoiceDate": "2026-07-02T17:45:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-07-02T17:45:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-07-03T17:45:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-07-05T17:45:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-07-02T17:45:00.000Z",
+    "updatedAt": "2026-07-02T17:45:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 1375,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1375,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20262155mm",
+    "razorpayPaymentId": "pay_20262155mm"
+  },
+  {
+    "_id": "ord_2026_8476_2",
+    "orderId": "MM-2026-8476",
+    "invoiceNumber": "INV-2026-8476",
+    "invoiceDate": "2026-07-01T14:50:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-07-01T14:50:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-07-02T14:50:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-07-04T14:50:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-07-01T14:50:00.000Z",
+    "updatedAt": "2026-07-01T14:50:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Priya Verma",
+      "email": "priya.verma@outlook.com",
+      "phone": "9845123987"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Priya Verma",
+      "mobile": "9845123987",
+      "email": "priya.verma@outlook.com",
+      "address": "Tower Chowk, Station Road",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 1326,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1326,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268476mm",
+    "razorpayPaymentId": "pay_20268476mm"
+  },
+  {
+    "_id": "ord_2026_6686_7",
+    "orderId": "MM-2026-6686",
+    "invoiceNumber": "INV-2026-6686",
+    "invoiceDate": "2026-07-01T13:25:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-07-01T13:25:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-07-02T13:25:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-07-04T13:25:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-07-01T13:25:00.000Z",
+    "updatedAt": "2026-07-01T13:25:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 917,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 917,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20266686mm",
+    "razorpayPaymentId": "pay_20266686mm"
+  },
+  {
+    "_id": "ord_2026_1558_6",
+    "orderId": "MM-2026-1558",
+    "invoiceNumber": "INV-2026-1558",
+    "invoiceDate": "2026-06-29T17:22:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-06-29T17:22:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-06-30T17:22:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-07-02T17:22:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-07-02T17:22:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-06-29T17:22:00.000Z",
+    "updatedAt": "2026-06-29T17:22:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_8353_4",
+    "orderId": "MM-2026-8353",
+    "invoiceNumber": "INV-2026-8353",
+    "invoiceDate": "2026-06-19T11:46:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-06-19T11:46:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-06-20T11:46:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-06-22T11:46:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-06-19T11:46:00.000Z",
+    "updatedAt": "2026-06-19T11:46:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Ananya Jha",
+      "email": "ananya.jha@mithila.org",
+      "phone": "9876123450"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ananya Jha",
+      "mobile": "9876123450",
+      "email": "ananya.jha@mithila.org",
+      "address": "Shanti Kunj, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 1027,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1027,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268353mm",
+    "razorpayPaymentId": "pay_20268353mm"
+  },
+  {
+    "_id": "ord_2026_3291_3",
+    "orderId": "MM-2026-3291",
+    "invoiceNumber": "INV-2026-3291",
+    "invoiceDate": "2026-06-16T10:46:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-06-16T10:46:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-06-17T10:46:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-06-19T10:46:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-06-19T10:46:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-06-16T10:46:00.000Z",
+    "updatedAt": "2026-06-16T10:46:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Priya Verma",
+      "email": "priya.verma@outlook.com",
+      "phone": "9845123987"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Priya Verma",
+      "mobile": "9845123987",
+      "email": "priya.verma@outlook.com",
+      "address": "Tower Chowk, Station Road",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 638,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 638,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_1763_1",
+    "orderId": "MM-2026-1763",
+    "invoiceNumber": "INV-2026-1763",
+    "invoiceDate": "2026-06-12T18:16:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-06-12T18:16:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-06-13T18:16:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-06-15T18:16:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-06-12T18:16:00.000Z",
+    "updatedAt": "2026-06-12T18:16:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aditya Nair",
+      "email": "aditya.n@gmail.com",
+      "phone": "9447112233"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aditya Nair",
+      "mobile": "9447112233",
+      "email": "aditya.n@gmail.com",
+      "address": "Indiranagar, 100ft Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    "subtotal": 857,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 857,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20261763mm",
+    "razorpayPaymentId": "pay_20261763mm"
+  },
+  {
+    "_id": "ord_2026_8836_2",
+    "orderId": "MM-2026-8836",
+    "invoiceNumber": "INV-2026-8836",
+    "invoiceDate": "2026-06-07T18:15:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-06-07T18:15:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-06-08T18:15:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-06-10T18:15:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-06-07T18:15:00.000Z",
+    "updatedAt": "2026-06-07T18:15:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@gmail.com",
+      "phone": "9823411223"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarav Sharma",
+      "mobile": "9823411223",
+      "email": "aarav.sharma@gmail.com",
+      "address": "Boring Road, Anandpuri",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 1266,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1266,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268836mm",
+    "razorpayPaymentId": "pay_20268836mm"
+  },
+  {
+    "_id": "ord_2026_1399_0",
+    "orderId": "MM-2026-1399",
+    "invoiceNumber": "INV-2026-1399",
+    "invoiceDate": "2026-06-02T16:12:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-06-02T16:12:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-06-03T16:12:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-06-05T16:12:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-06-05T16:12:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-06-02T16:12:00.000Z",
+    "updatedAt": "2026-06-02T16:12:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_3053_5",
+    "orderId": "MM-2026-3053",
+    "invoiceNumber": "INV-2026-3053",
+    "invoiceDate": "2026-06-02T15:56:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-06-02T15:56:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-06-03T15:56:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-06-05T15:56:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-06-02T15:56:00.000Z",
+    "updatedAt": "2026-06-02T15:56:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 1505,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1505,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20263053mm",
+    "razorpayPaymentId": "pay_20263053mm"
+  },
+  {
+    "_id": "ord_2026_2220_6",
+    "orderId": "MM-2026-2220",
+    "invoiceNumber": "INV-2026-2220",
+    "invoiceDate": "2026-05-30T15:18:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-05-30T15:18:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-05-31T15:18:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-06-02T15:18:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-06-02T15:18:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-05-30T15:18:00.000Z",
+    "updatedAt": "2026-05-30T15:18:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 349,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 399,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_9236_0",
+    "orderId": "MM-2026-9236",
+    "invoiceNumber": "INV-2026-9236",
+    "invoiceDate": "2026-05-30T15:01:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-05-30T15:01:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-05-31T15:01:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-06-02T15:01:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-06-02T15:01:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-05-30T15:01:00.000Z",
+    "updatedAt": "2026-05-30T15:01:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 349,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 399,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_8725_1",
+    "orderId": "MM-2026-8725",
+    "invoiceNumber": "INV-2026-8725",
+    "invoiceDate": "2026-05-19T20:39:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-05-19T20:39:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-05-20T20:39:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-05-22T20:39:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-05-19T20:39:00.000Z",
+    "updatedAt": "2026-05-19T20:39:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 777,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 777,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268725mm",
+    "razorpayPaymentId": "pay_20268725mm"
+  },
+  {
+    "_id": "ord_2026_9844_2",
+    "orderId": "MM-2026-9844",
+    "invoiceNumber": "INV-2026-9844",
+    "invoiceDate": "2026-05-18T12:22:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-05-18T12:22:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-05-19T12:22:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-05-21T12:22:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-05-18T12:22:00.000Z",
+    "updatedAt": "2026-05-18T12:22:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aditya Nair",
+      "email": "aditya.n@gmail.com",
+      "phone": "9447112233"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aditya Nair",
+      "mobile": "9447112233",
+      "email": "aditya.n@gmail.com",
+      "address": "Indiranagar, 100ft Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    "subtotal": 1196,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1196,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20269844mm",
+    "razorpayPaymentId": "pay_20269844mm"
+  },
+  {
+    "_id": "ord_2026_2646_3",
+    "orderId": "MM-2026-2646",
+    "invoiceNumber": "INV-2026-2646",
+    "invoiceDate": "2026-05-14T15:10:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-05-14T15:10:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-05-15T15:10:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-05-17T15:10:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-05-17T15:10:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-05-14T15:10:00.000Z",
+    "updatedAt": "2026-05-14T15:10:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@gmail.com",
+      "phone": "9823411223"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarav Sharma",
+      "mobile": "9823411223",
+      "email": "aarav.sharma@gmail.com",
+      "address": "Boring Road, Anandpuri",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 598,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 598,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_6237_4",
+    "orderId": "MM-2026-6237",
+    "invoiceNumber": "INV-2026-6237",
+    "invoiceDate": "2026-05-11T15:43:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-05-11T15:43:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-05-12T15:43:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-05-14T15:43:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-05-11T15:43:00.000Z",
+    "updatedAt": "2026-05-11T15:43:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Priya Verma",
+      "email": "priya.verma@outlook.com",
+      "phone": "9845123987"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Priya Verma",
+      "mobile": "9845123987",
+      "email": "priya.verma@outlook.com",
+      "address": "Tower Chowk, Station Road",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 977,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 977,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20266237mm",
+    "razorpayPaymentId": "pay_20266237mm"
+  },
+  {
+    "_id": "ord_2026_1293_5",
+    "orderId": "MM-2026-1293",
+    "invoiceNumber": "INV-2026-1293",
+    "invoiceDate": "2026-05-03T13:51:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-05-03T13:51:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-05-04T13:51:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-05-06T13:51:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-05-03T13:51:00.000Z",
+    "updatedAt": "2026-05-03T13:51:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Ananya Jha",
+      "email": "ananya.jha@mithila.org",
+      "phone": "9876123450"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ananya Jha",
+      "mobile": "9876123450",
+      "email": "ananya.jha@mithila.org",
+      "address": "Shanti Kunj, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 1505,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1505,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20261293mm",
+    "razorpayPaymentId": "pay_20261293mm"
+  },
+  {
+    "_id": "ord_2026_8544_5",
+    "orderId": "MM-2026-8544",
+    "invoiceNumber": "INV-2026-8544",
+    "invoiceDate": "2026-04-25T13:47:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-04-25T13:47:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-04-26T13:47:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-04-28T13:47:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-04-25T13:47:00.000Z",
+    "updatedAt": "2026-04-25T13:47:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Priya Verma",
+      "email": "priya.verma@outlook.com",
+      "phone": "9845123987"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Priya Verma",
+      "mobile": "9845123987",
+      "email": "priya.verma@outlook.com",
+      "address": "Tower Chowk, Station Road",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 1665,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1665,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268544mm",
+    "razorpayPaymentId": "pay_20268544mm"
+  },
+  {
+    "_id": "ord_2026_4810_4",
+    "orderId": "MM-2026-4810",
+    "invoiceNumber": "INV-2026-4810",
+    "invoiceDate": "2026-04-15T12:29:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-04-15T12:29:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-04-16T12:29:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-04-18T12:29:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-04-15T12:29:00.000Z",
+    "updatedAt": "2026-04-15T12:29:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@gmail.com",
+      "phone": "9823411223"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarav Sharma",
+      "mobile": "9823411223",
+      "email": "aarav.sharma@gmail.com",
+      "address": "Boring Road, Anandpuri",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 937,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 937,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20264810mm",
+    "razorpayPaymentId": "pay_20264810mm"
+  },
+  {
+    "_id": "ord_2026_5800_1",
+    "orderId": "MM-2026-5800",
+    "invoiceNumber": "INV-2026-5800",
+    "invoiceDate": "2026-04-15T11:15:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-04-15T11:15:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-04-16T11:15:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-04-18T11:15:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-04-15T11:15:00.000Z",
+    "updatedAt": "2026-04-15T11:15:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 947,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 947,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20265800mm",
+    "razorpayPaymentId": "pay_20265800mm"
+  },
+  {
+    "_id": "ord_2026_5683_2",
+    "orderId": "MM-2026-5683",
+    "invoiceNumber": "INV-2026-5683",
+    "invoiceDate": "2026-04-13T16:06:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-04-13T16:06:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-04-14T16:06:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-04-16T16:06:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-04-13T16:06:00.000Z",
+    "updatedAt": "2026-04-13T16:06:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 1106,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1106,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20265683mm",
+    "razorpayPaymentId": "pay_20265683mm"
+  },
+  {
+    "_id": "ord_2026_2392_3",
+    "orderId": "MM-2026-2392",
+    "invoiceNumber": "INV-2026-2392",
+    "invoiceDate": "2026-04-09T14:36:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-04-09T14:36:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-04-10T14:36:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-04-12T14:36:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-04-12T14:36:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-04-09T14:36:00.000Z",
+    "updatedAt": "2026-04-09T14:36:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aditya Nair",
+      "email": "aditya.n@gmail.com",
+      "phone": "9447112233"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aditya Nair",
+      "mobile": "9447112233",
+      "email": "aditya.n@gmail.com",
+      "address": "Indiranagar, 100ft Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    "subtotal": 558,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 558,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_4732_0",
+    "orderId": "MM-2026-4732",
+    "invoiceNumber": "INV-2026-4732",
+    "invoiceDate": "2026-04-06T16:18:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-04-06T16:18:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-04-07T16:18:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-04-09T16:18:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-04-09T16:18:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-04-06T16:18:00.000Z",
+    "updatedAt": "2026-04-06T16:18:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 329,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 379,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_2185_5",
+    "orderId": "MM-2026-2185",
+    "invoiceNumber": "INV-2026-2185",
+    "invoiceDate": "2026-03-27T12:22:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-03-27T12:22:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-03-28T12:22:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-03-30T12:22:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-03-27T12:22:00.000Z",
+    "updatedAt": "2026-03-27T12:22:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@gmail.com",
+      "phone": "9823411223"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarav Sharma",
+      "mobile": "9823411223",
+      "email": "aarav.sharma@gmail.com",
+      "address": "Boring Road, Anandpuri",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 1575,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1575,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20262185mm",
+    "razorpayPaymentId": "pay_20262185mm"
+  },
+  {
+    "_id": "ord_2026_5934_0",
+    "orderId": "MM-2026-5934",
+    "invoiceNumber": "INV-2026-5934",
+    "invoiceDate": "2026-03-23T14:36:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-03-23T14:36:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-03-24T14:36:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-03-26T14:36:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-03-26T14:36:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-03-23T14:36:00.000Z",
+    "updatedAt": "2026-03-23T14:36:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 319,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 369,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_4582_3",
+    "orderId": "MM-2026-4582",
+    "invoiceNumber": "INV-2026-4582",
+    "invoiceDate": "2026-03-19T10:37:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-03-19T10:37:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-03-20T10:37:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-03-22T10:37:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-03-22T10:37:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-03-19T10:37:00.000Z",
+    "updatedAt": "2026-03-19T10:37:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 498,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 548,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_5855_1",
+    "orderId": "MM-2026-5855",
+    "invoiceNumber": "INV-2026-5855",
+    "invoiceDate": "2026-03-16T10:12:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-03-16T10:12:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-03-17T10:12:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-03-19T10:12:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-03-16T10:12:00.000Z",
+    "updatedAt": "2026-03-16T10:12:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 1007,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1007,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20265855mm",
+    "razorpayPaymentId": "pay_20265855mm"
+  },
+  {
+    "_id": "ord_2026_4952_4",
+    "orderId": "MM-2026-4952",
+    "invoiceNumber": "INV-2026-4952",
+    "invoiceDate": "2026-03-12T12:10:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-03-12T12:10:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-03-13T12:10:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-03-15T12:10:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-03-12T12:10:00.000Z",
+    "updatedAt": "2026-03-12T12:10:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aditya Nair",
+      "email": "aditya.n@gmail.com",
+      "phone": "9447112233"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aditya Nair",
+      "mobile": "9447112233",
+      "email": "aditya.n@gmail.com",
+      "address": "Indiranagar, 100ft Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    "subtotal": 877,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 877,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20264952mm",
+    "razorpayPaymentId": "pay_20264952mm"
+  },
+  {
+    "_id": "ord_2026_5200_2",
+    "orderId": "MM-2026-5200",
+    "invoiceNumber": "INV-2026-5200",
+    "invoiceDate": "2026-03-03T20:13:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-03-03T20:13:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-03-04T20:13:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-03-06T20:13:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-03-03T20:13:00.000Z",
+    "updatedAt": "2026-03-03T20:13:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 1126,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1126,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20265200mm",
+    "razorpayPaymentId": "pay_20265200mm"
+  },
+  {
+    "_id": "ord_2026_9814_2",
+    "orderId": "MM-2026-9814",
+    "invoiceNumber": "INV-2026-9814",
+    "invoiceDate": "2026-02-23T16:01:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-02-23T16:01:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-02-24T16:01:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-02-26T16:01:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-02-23T16:01:00.000Z",
+    "updatedAt": "2026-02-23T16:01:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 1276,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1276,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20269814mm",
+    "razorpayPaymentId": "pay_20269814mm"
+  },
+  {
+    "_id": "ord_2026_8304_0",
+    "orderId": "MM-2026-8304",
+    "invoiceNumber": "INV-2026-8304",
+    "invoiceDate": "2026-02-20T11:30:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-02-20T11:30:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-02-21T11:30:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-02-23T11:30:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-02-23T11:30:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-02-20T11:30:00.000Z",
+    "updatedAt": "2026-02-20T11:30:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Ananya Jha",
+      "email": "ananya.jha@mithila.org",
+      "phone": "9876123450"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ananya Jha",
+      "mobile": "9876123450",
+      "email": "ananya.jha@mithila.org",
+      "address": "Shanti Kunj, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 299,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 349,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_8662_1",
+    "orderId": "MM-2026-8662",
+    "invoiceNumber": "INV-2026-8662",
+    "invoiceDate": "2026-02-19T16:09:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-02-19T16:09:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-02-20T16:09:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-02-22T16:09:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-02-19T16:09:00.000Z",
+    "updatedAt": "2026-02-19T16:09:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 967,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 967,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20268662mm",
+    "razorpayPaymentId": "pay_20268662mm"
+  },
+  {
+    "_id": "ord_2026_3119_4",
+    "orderId": "MM-2026-3119",
+    "invoiceNumber": "INV-2026-3119",
+    "invoiceDate": "2026-02-10T17:32:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-02-10T17:32:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-02-11T17:32:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-02-13T17:32:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-02-10T17:32:00.000Z",
+    "updatedAt": "2026-02-10T17:32:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 807,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 807,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20263119mm",
+    "razorpayPaymentId": "pay_20263119mm"
+  },
+  {
+    "_id": "ord_2026_1614_3",
+    "orderId": "MM-2026-1614",
+    "invoiceNumber": "INV-2026-1614",
+    "invoiceDate": "2026-02-01T13:50:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-02-01T13:50:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-02-02T13:50:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-02-04T13:50:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-02-04T13:50:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-02-01T13:50:00.000Z",
+    "updatedAt": "2026-02-01T13:50:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 698,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 698,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_9152_1",
+    "orderId": "MM-2026-9152",
+    "invoiceNumber": "INV-2026-9152",
+    "invoiceDate": "2026-01-27T18:15:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-01-27T18:15:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-01-28T18:15:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-01-30T18:15:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-01-27T18:15:00.000Z",
+    "updatedAt": "2026-01-27T18:15:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Ananya Jha",
+      "email": "ananya.jha@mithila.org",
+      "phone": "9876123450"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ananya Jha",
+      "mobile": "9876123450",
+      "email": "ananya.jha@mithila.org",
+      "address": "Shanti Kunj, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 917,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 917,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20269152mm",
+    "razorpayPaymentId": "pay_20269152mm"
+  },
+  {
+    "_id": "ord_2026_9427_2",
+    "orderId": "MM-2026-9427",
+    "invoiceNumber": "INV-2026-9427",
+    "invoiceDate": "2026-01-23T17:58:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-01-23T17:58:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-01-24T17:58:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-01-26T17:58:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-01-23T17:58:00.000Z",
+    "updatedAt": "2026-01-23T17:58:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 1326,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1326,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20269427mm",
+    "razorpayPaymentId": "pay_20269427mm"
+  },
+  {
+    "_id": "ord_2026_8985_0",
+    "orderId": "MM-2026-8985",
+    "invoiceNumber": "INV-2026-8985",
+    "invoiceDate": "2026-01-13T15:37:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-01-13T15:37:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-01-14T15:37:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-01-16T15:37:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-01-16T15:37:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-01-13T15:37:00.000Z",
+    "updatedAt": "2026-01-13T15:37:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Priya Verma",
+      "email": "priya.verma@outlook.com",
+      "phone": "9845123987"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Priya Verma",
+      "mobile": "9845123987",
+      "email": "priya.verma@outlook.com",
+      "address": "Tower Chowk, Station Road",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 279,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 329,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2026_5297_4",
+    "orderId": "MM-2026-5297",
+    "invoiceNumber": "INV-2026-5297",
+    "invoiceDate": "2026-01-05T15:18:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-01-05T15:18:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-01-06T15:18:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-01-08T15:18:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2026-01-05T15:18:00.000Z",
+    "updatedAt": "2026-01-05T15:18:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 847,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 847,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20265297mm",
+    "razorpayPaymentId": "pay_20265297mm"
+  },
+  {
+    "_id": "ord_2026_8713_3",
+    "orderId": "MM-2026-8713",
+    "invoiceNumber": "INV-2026-8713",
+    "invoiceDate": "2026-01-01T09:20:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-01-01T09:20:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2026-01-02T09:20:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-01-04T09:20:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2026-01-04T09:20:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2026-01-01T09:20:00.000Z",
+    "updatedAt": "2026-01-01T09:20:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 658,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 658,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2025_6500_0",
+    "orderId": "MM-2025-6500",
+    "invoiceNumber": "INV-2025-6500",
+    "invoiceDate": "2025-12-23T12:09:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-12-23T12:09:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-12-24T12:09:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-12-26T12:09:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2025-12-26T12:09:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2025-12-23T12:09:00.000Z",
+    "updatedAt": "2025-12-23T12:09:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 249,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 299,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2025_4949_4",
+    "orderId": "MM-2025-4949",
+    "invoiceNumber": "INV-2025-4949",
+    "invoiceDate": "2025-12-20T18:04:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-12-20T18:04:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-12-21T18:04:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-12-23T18:04:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2025-12-20T18:04:00.000Z",
+    "updatedAt": "2025-12-20T18:04:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@gmail.com",
+      "phone": "9823411223"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      },
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aarav Sharma",
+      "mobile": "9823411223",
+      "email": "aarav.sharma@gmail.com",
+      "address": "Boring Road, Anandpuri",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800001"
+    },
+    "subtotal": 1027,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1027,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20254949mm",
+    "razorpayPaymentId": "pay_20254949mm"
+  },
+  {
+    "_id": "ord_2025_5187_2",
+    "orderId": "MM-2025-5187",
+    "invoiceNumber": "INV-2025-5187",
+    "invoiceDate": "2025-12-09T12:17:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-12-09T12:17:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-12-10T12:17:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-12-12T12:17:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2025-12-09T12:17:00.000Z",
+    "updatedAt": "2025-12-09T12:17:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 1266,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1266,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20255187mm",
+    "razorpayPaymentId": "pay_20255187mm"
+  },
+  {
+    "_id": "ord_2025_4280_1",
+    "orderId": "MM-2025-4280",
+    "invoiceNumber": "INV-2025-4280",
+    "invoiceDate": "2025-12-04T10:11:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-12-04T10:11:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-12-05T10:11:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-12-07T10:11:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2025-12-04T10:11:00.000Z",
+    "updatedAt": "2025-12-04T10:11:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 857,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 857,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20254280mm",
+    "razorpayPaymentId": "pay_20254280mm"
+  },
+  {
+    "_id": "ord_2025_6260_3",
+    "orderId": "MM-2025-6260",
+    "invoiceNumber": "INV-2025-6260",
+    "invoiceDate": "2025-12-03T10:06:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-12-03T10:06:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-12-04T10:06:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-12-06T10:06:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2025-12-06T10:06:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2025-12-03T10:06:00.000Z",
+    "updatedAt": "2025-12-03T10:06:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aditya Nair",
+      "email": "aditya.n@gmail.com",
+      "phone": "9447112233"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 638
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aditya Nair",
+      "mobile": "9447112233",
+      "email": "aditya.n@gmail.com",
+      "address": "Indiranagar, 100ft Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    "subtotal": 638,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 638,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2025_4295_5",
+    "orderId": "MM-2025-4295",
+    "invoiceNumber": "INV-2025-4295",
+    "invoiceDate": "2025-12-02T14:23:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-12-02T14:23:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-12-03T14:23:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-12-05T14:23:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2025-12-02T14:23:00.000Z",
+    "updatedAt": "2025-12-02T14:23:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Priya Verma",
+      "email": "priya.verma@outlook.com",
+      "phone": "9845123987"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Priya Verma",
+      "mobile": "9845123987",
+      "email": "priya.verma@outlook.com",
+      "address": "Tower Chowk, Station Road",
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pincode": "846004"
+    },
+    "subtotal": 1505,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1505,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20254295mm",
+    "razorpayPaymentId": "pay_20254295mm"
+  },
+  {
+    "_id": "ord_2025_9935_1",
+    "orderId": "MM-2025-9935",
+    "invoiceNumber": "INV-2025-9935",
+    "invoiceDate": "2025-11-29T10:18:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-11-29T10:18:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-11-30T10:18:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-12-02T10:18:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2025-11-29T10:18:00.000Z",
+    "updatedAt": "2025-11-29T10:18:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 498
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 777,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 777,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20259935mm",
+    "razorpayPaymentId": "pay_20259935mm"
+  },
+  {
+    "_id": "ord_2025_4562_0",
+    "orderId": "MM-2025-4562",
+    "invoiceNumber": "INV-2025-4562",
+    "invoiceDate": "2025-11-25T12:12:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-11-25T12:12:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-11-26T12:12:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-11-28T12:12:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2025-11-28T12:12:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2025-11-25T12:12:00.000Z",
+    "updatedAt": "2025-11-25T12:12:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 1,
+        "subtotal": 349
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 349,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 399,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2025_6497_3",
+    "orderId": "MM-2025-6497",
+    "invoiceNumber": "INV-2025-6497",
+    "invoiceDate": "2025-11-17T17:04:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-11-17T17:04:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-11-18T17:04:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-11-20T17:04:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2025-11-20T17:04:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2025-11-17T17:04:00.000Z",
+    "updatedAt": "2025-11-17T17:04:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Sneha Roy",
+      "email": "sneha.roy@gmail.com",
+      "phone": "9833445566"
+    },
+    "items": [
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Sneha Roy",
+      "mobile": "9833445566",
+      "email": "sneha.roy@gmail.com",
+      "address": "Ballygunge Circular Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029"
+    },
+    "subtotal": 598,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 598,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2025_5766_2",
+    "orderId": "MM-2025-5766",
+    "invoiceNumber": "INV-2025-5766",
+    "invoiceDate": "2025-11-09T13:23:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-11-09T13:23:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-11-10T13:23:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-11-12T13:23:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2025-11-09T13:23:00.000Z",
+    "updatedAt": "2025-11-09T13:23:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 279
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 598
+      },
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 1196,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1196,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20255766mm",
+    "razorpayPaymentId": "pay_20255766mm"
+  },
+  {
+    "_id": "ord_2025_2467_4",
+    "orderId": "MM-2025-2467",
+    "invoiceNumber": "INV-2025-2467",
+    "invoiceDate": "2025-11-03T16:39:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-11-03T16:39:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-11-04T16:39:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-11-06T16:39:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2025-11-03T16:39:00.000Z",
+    "updatedAt": "2025-11-03T16:39:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Aditya Nair",
+      "email": "aditya.n@gmail.com",
+      "phone": "9447112233"
+    },
+    "items": [
+      {
+        "product": "prod_cheese_05",
+        "name": "White Cheddar Cheese & Herbs Makhana",
+        "image": "/images/cheese-flavoured-dip.png",
+        "price": 319,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 319
+      },
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 658
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Aditya Nair",
+      "mobile": "9447112233",
+      "email": "aditya.n@gmail.com",
+      "address": "Indiranagar, 100ft Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038"
+    },
+    "subtotal": 977,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 977,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20252467mm",
+    "razorpayPaymentId": "pay_20252467mm"
+  },
+  {
+    "_id": "ord_2025_2262_3",
+    "orderId": "MM-2025-2262",
+    "invoiceNumber": "INV-2025-2262",
+    "invoiceDate": "2025-10-30T12:14:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-10-30T12:14:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-10-31T12:14:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-11-02T12:14:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2025-11-02T12:14:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2025-10-30T12:14:00.000Z",
+    "updatedAt": "2025-10-30T12:14:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Kavita Patel",
+      "email": "kavita.p@gmail.com",
+      "phone": "9712345678"
+    },
+    "items": [
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Kavita Patel",
+      "mobile": "9712345678",
+      "email": "kavita.p@gmail.com",
+      "address": "Satellite Road, Jodhpur Cross",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015"
+    },
+    "subtotal": 558,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 558,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2025_9524_0",
+    "orderId": "MM-2025-9524",
+    "invoiceNumber": "INV-2025-9524",
+    "invoiceDate": "2025-10-27T19:37:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-10-27T19:37:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-10-28T19:37:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-10-30T19:37:00.000Z",
+        "notes": "Delivered to customer"
+      },
+      {
+        "status": "Payment: Received",
+        "timestamp": "2025-10-30T19:37:00.000Z",
+        "notes": "COD cash collected by courier"
+      }
+    ],
+    "createdAt": "2025-10-27T19:37:00.000Z",
+    "updatedAt": "2025-10-27T19:37:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Ananya Jha",
+      "email": "ananya.jha@mithila.org",
+      "phone": "9876123450"
+    },
+    "items": [
+      {
+        "product": "prod_caramel_06",
+        "name": "Caramel & Organic Jaggery Makhana",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 329,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 329
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Ananya Jha",
+      "mobile": "9876123450",
+      "email": "ananya.jha@mithila.org",
+      "address": "Shanti Kunj, Ward 4",
+      "city": "Madhubani",
+      "state": "Bihar",
+      "pincode": "847211"
+    },
+    "subtotal": 329,
+    "shippingFee": 50,
+    "discount": 0,
+    "total": 379,
+    "paymentMethod": "cod",
+    "razorpayOrderId": "",
+    "razorpayPaymentId": ""
+  },
+  {
+    "_id": "ord_2025_4207_2",
+    "orderId": "MM-2025-4207",
+    "invoiceNumber": "INV-2025-4207",
+    "invoiceDate": "2025-10-07T19:52:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-10-07T19:52:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-10-08T19:52:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-10-10T19:52:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2025-10-07T19:52:00.000Z",
+    "updatedAt": "2025-10-07T19:52:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "9822334455"
+    },
+    "items": [
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      },
+      {
+        "product": "prod_roasted_02",
+        "name": "Slow Roasted Makhana (Pink Salt & Ghee)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 279,
+        "weight": "250g",
+        "quantity": 2,
+        "subtotal": 558
+      },
+      {
+        "product": "prod_masala_03",
+        "name": "Mithila Masala Makhana (Spice Blend)",
+        "image": "/images/roasted-makhana-jar.png",
+        "price": 299,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 299
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Vikram Singh",
+      "mobile": "9822334455",
+      "email": "vikram.singh@gmail.com",
+      "address": "Bandra West, Hill Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "subtotal": 1106,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 1106,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20254207mm",
+    "razorpayPaymentId": "pay_20254207mm"
+  },
+  {
+    "_id": "ord_2025_8271_1",
+    "orderId": "MM-2025-8271",
+    "invoiceNumber": "INV-2025-8271",
+    "invoiceDate": "2025-10-03T13:37:00.000Z",
+    "orderStatus": "Delivered",
+    "paymentStatus": "completed",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2025-10-03T13:37:00.000Z",
+        "notes": "Order confirmed and placed successfully"
+      },
+      {
+        "status": "Shipped",
+        "timestamp": "2025-10-04T13:37:00.000Z",
+        "notes": "Dispatched via Express Courier"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2025-10-06T13:37:00.000Z",
+        "notes": "Delivered to customer"
+      }
+    ],
+    "createdAt": "2025-10-03T13:37:00.000Z",
+    "updatedAt": "2025-10-03T13:37:00.000Z",
+    "user": "usr_customer_01",
+    "customer": {
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@yahoo.com",
+      "phone": "9911223344"
+    },
+    "items": [
+      {
+        "product": "prod_raw_07",
+        "name": "Sourced Mithila Makhana Seeds (Fox Nut Seeds)",
+        "image": "/images/heritage-seeds-burlap.png",
+        "price": 349,
+        "weight": "500g",
+        "quantity": 2,
+        "subtotal": 698
+      },
+      {
+        "product": "prod_plain_01",
+        "name": "Premium Plain Makhana",
+        "image": "/images/plain-makhana-bowl.png",
+        "price": 249,
+        "weight": "250g",
+        "quantity": 1,
+        "subtotal": 249
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Rohan Gupta",
+      "mobile": "9911223344",
+      "email": "rohan.gupta@yahoo.com",
+      "address": "Connaught Place, Block B",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subtotal": 947,
+    "shippingFee": 0,
+    "discount": 0,
+    "total": 947,
+    "paymentMethod": "razorpay",
+    "razorpayOrderId": "order_20258271mm",
+    "razorpayPaymentId": "pay_20258271mm"
+  }
+]

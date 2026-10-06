@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "msg_muto98dedh3yy2d",
+    "name": "TALHA KHAN",
+    "email": "tk2006bornwithtalent@gmail.com",
+    "phone": "+918619161670",
+    "subject": "Customer Query / Bulk Inquiry",
+    "message": "mmkomkom",
+    "status": "new",
+    "createdAt": "2026-10-04T10:22:20.834Z"
+  },
+  {
+    "_id": "msg_01",
+    "name": "Deepak Verma",
+    "email": "deepak.verma@example.com",
+    "phone": "+91 9988776655",
+    "subject": "Wholesale / Family Bulk Order Query",
+    "message": "Hello, we are organizing a family function in Bihar and want to order 20kg of Premium Plain and Roasted Makhana. Do you offer bulk packaging?",
+    "status": "new",
+    "createdAt": "2026-10-01T07:57:33.129Z"
+  }
+]
