@@ -48,11 +48,6 @@ const Login = () => {
     }
   };
 
-  const handleQuickLogin = (demoEmail, demoPassword) => {
-    setEmail(demoEmail);
-    setPassword(demoPassword);
-  };
-
   return (
     <div className="max-w-md px-4 py-16 mx-auto space-y-8">
       
@@ -143,27 +138,6 @@ const Login = () => {
             {loading ? <span>Authenticating...</span> : <span>Sign In</span>}
           </button>
         </form>
-
-        {/* Demo Fast Login Button */}
-        <div className="pt-4 border-t border-[#E8DEC9] space-y-2">
-          <div className="flex items-center justify-between text-[10px] uppercase tracking-wider text-[#8A6D56] font-bold">
-            <span>Demo Customer Account</span>
-            <span className="text-[#2D5A27]">1-Click Autofill</span>
-          </div>
-          <button
-            type="button"
-            onClick={() => handleQuickLogin('customer@mithilamakhana.com', 'customer123')}
-            className="w-full p-2.5 rounded-xl bg-[#FAF6F0] hover:bg-[#F3ECE2] border border-[#E8DEC9] text-left text-xs text-[#4A2E1B] transition-colors flex items-center justify-between cursor-pointer"
-          >
-            <span className="flex items-center font-bold">
-              <UserCheck className="w-3.5 h-3.5 mr-1.5 text-[#2D5A27]" />
-              <span>customer@mithilamakhana.com</span>
-            </span>
-            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-[#E8DEC9] text-[#6D4A32]">
-              customer123
-            </span>
-          </button>
-        </div>
 
         <div className="text-center pt-2 text-xs text-[#6D4A32]">
           <span>Don't have an account? </span>

@@ -10,7 +10,6 @@ import {
   EyeOff, 
   RefreshCw, 
   ShieldCheck, 
-  Sparkles,
   AlertCircle
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -27,7 +26,6 @@ const ForgotPasswordModal = ({ isOpen, onClose, initialEmail = '', onSuccess }) 
   const [loading, setLoading] = useState(false);
   const [resending, setResending] = useState(false);
   const [resendTimer, setResendTimer] = useState(0);
-  const [devOtpHint, setDevOtpHint] = useState(null);
   const [errorMsg, setErrorMsg] = useState('');
 
   const otpInputsRef = useRef([]);
@@ -43,7 +41,6 @@ const ForgotPasswordModal = ({ isOpen, onClose, initialEmail = '', onSuccess }) 
       setNewPassword('');
       setConfirmPassword('');
       setErrorMsg('');
-      setDevOtpHint(null);
       setResendTimer(0);
     }
   }, [isOpen, initialEmail]);
@@ -90,9 +87,6 @@ const ForgotPasswordModal = ({ isOpen, onClose, initialEmail = '', onSuccess }) 
       if (res.data?.success) {
         setStep('reset');
         setResendTimer(60);
-        if (res.data.devOtp) {
-          setDevOtpHint(res.data.devOtp);
-        }
         success('Verification code sent to your email!');
       }
     } catch (err) {
@@ -114,9 +108,6 @@ const ForgotPasswordModal = ({ isOpen, onClose, initialEmail = '', onSuccess }) 
       const res = await forgotPassword({ email: email.trim().toLowerCase() });
       if (res.data?.success) {
         setResendTimer(60);
-        if (res.data.devOtp) {
-          setDevOtpHint(res.data.devOtp);
-        }
         success('Fresh verification code sent to your email!');
       }
     } catch (err) {
@@ -326,27 +317,6 @@ const ForgotPasswordModal = ({ isOpen, onClose, initialEmail = '', onSuccess }) 
                 </button>
               </p>
             </div>
-
-            {/* Dev OTP Helper */}
-            {devOtpHint && (
-              <div className="p-2.5 rounded-xl bg-[#FEF8EA] border border-[#D99B26]/40 flex items-center justify-between text-xs text-[#B07812]">
-                <span className="flex items-center space-x-1.5">
-                  <Sparkles className="w-3.5 h-3.5" />
-                  <span>Dev Preview OTP: <strong>{devOtpHint}</strong></span>
-                </span>
-                <button
-                  type="button"
-                  onClick={() => {
-                    const digits = devOtpHint.split('').slice(0, 6);
-                    setOtp(digits);
-                    otpInputsRef.current[5]?.focus();
-                  }}
-                  className="px-2 py-0.5 rounded-md bg-[#D99B26] text-white text-[10px] font-bold hover:bg-[#B07812]"
-                >
-                  Auto-fill
-                </button>
-              </div>
-            )}
 
             {errorMsg && (
               <div className="p-3 rounded-xl bg-red-50 border border-red-200 text-red-700 text-xs flex items-center space-x-2">

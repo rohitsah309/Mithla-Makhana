@@ -2,8 +2,8 @@
   {
     "_id": "usr_customer_01",
     "name": "Rohit Kumar",
-    "email": "customer@mithilamakhana.com",
-    "password": "$2a$10$8NHGHXPl02whGlUcOnEuMebujKltzvlNQVGcmi9CNGVj/9bh8jvAS",
+    "email": "rohitsah00040004@gmail.com",
+    "password": "$2a$10$YHOyAc2JYjxh1ZfMSOa75uH.ffOBQwx1zSMqLiwGmBfdRJZnvDMDK",
     "role": "customer",
     "phone": "9812345678",
     "addresses": [
@@ -31,14 +31,14 @@
       "prod_masala_03"
     ],
     "createdAt": "2026-10-01T07:57:33.124Z",
-    "updatedAt": "2026-10-05T15:36:14.286Z",
+    "updatedAt": "2026-10-06T04:37:55.432Z",
     "isBlocked": false,
     "blockedAt": null,
     "mustChangePassword": true,
     "isInitialPassword": true,
     "isCustomerBlocked": false,
     "customerBlockedAt": null,
-    "customerPasswordChangedAt": "2026-10-05T15:33:21.754Z",
+    "customerPasswordChangedAt": "2026-10-06T04:37:55.431Z",
     "adminRoleTitle": null
   },
   {
@@ -120,15 +120,15 @@
     "role": "admin",
     "name": "Mithla Makhana",
     "email": "rohitsahps309@gmail.com",
-    "adminPassword": "$2a$10$p14uwsV831rOVuE6zlNQlOUxaKjL9aljuHmRcUFL0qcOF1etu5YJ6",
+    "adminPassword": "$2a$10$gys.9JPTm4yj1aFhysriTOnrB8FJLXWMbieXAlUubrtnvrfQxvDPe",
     "password": "$2a$10$jAPzPFkmAPI5ABwroy4iEu8stlwPLku5Q1cpPlKtmp0D7Pfm7/pq6",
     "phone": "860386773",
     "adminRoleTitle": "Super Administrator",
     "mustChangePassword": false,
     "isInitialPassword": false,
     "createdAt": "2026-10-05T19:58:23.652Z",
-    "adminPasswordChangedAt": "2026-10-05T19:59:08.170Z",
-    "updatedAt": "2026-10-05T19:59:08.172Z"
+    "adminPasswordChangedAt": "2026-10-06T04:31:04.505Z",
+    "updatedAt": "2026-10-06T04:31:04.506Z"
   },
   {
     "_id": "usr_muvohxfcz783mcx",
@@ -146,5 +146,18 @@
     "createdAt": "2026-10-05T20:04:38.905Z",
     "adminPasswordChangedAt": "2026-10-05T20:05:05.797Z",
     "updatedAt": "2026-10-05T20:07:08.884Z"
+  },
+  {
+    "_id": "usr_muwb1fsayt7p309",
+    "addresses": [],
+    "wishlist": [],
+    "role": "customer",
+    "name": "RK",
+    "email": "r76088163@gmail.com",
+    "password": "$2a$10$01Fh3AdZyZnEqUSYWY8gx.K1ahEU7DroNUrBSBg6mwNlR8p/L73jS",
+    "phone": "8575025733",
+    "isEmailVerified": true,
+    "emailVerifiedAt": "2026-10-06T06:35:40.714Z",
+    "createdAt": "2026-10-06T06:35:40.714Z"
   }
 ]

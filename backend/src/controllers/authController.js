@@ -41,7 +41,7 @@ const sendRegisterOtp = async (req, res, next) => {
     const { code, expiresInMinutes } = otpService.generateOtp(cleanEmail, name);
 
     // Send email via nodemailer / dev fallback
-    const emailResult = await emailService.sendRegisterOtpEmail({
+    await emailService.sendRegisterOtpEmail({
       email: cleanEmail,
       name,
       otp: code
@@ -51,8 +51,7 @@ const sendRegisterOtp = async (req, res, next) => {
       success: true,
       message: `A 6-digit verification code has been sent to ${cleanEmail}.`,
       email: cleanEmail,
-      expiresInMinutes,
-      devOtp: emailResult.devOtp || undefined
+      expiresInMinutes
     });
   } catch (err) {
     next(err);
@@ -408,7 +407,7 @@ const forgotPassword = async (req, res, next) => {
     const { code, expiresInMinutes } = otpService.generateOtp(cleanEmail, user.name);
 
     // Send email via nodemailer / dev fallback
-    const emailResult = await emailService.sendResetPasswordOtpEmail({
+    await emailService.sendResetPasswordOtpEmail({
       email: cleanEmail,
       name: user.name,
       otp: code
@@ -418,8 +417,7 @@ const forgotPassword = async (req, res, next) => {
       success: true,
       message: `A 6-digit password reset code has been sent to ${cleanEmail}.`,
       email: cleanEmail,
-      expiresInMinutes,
-      devOtp: emailResult.devOtp || undefined
+      expiresInMinutes
     });
   } catch (err) {
     next(err);

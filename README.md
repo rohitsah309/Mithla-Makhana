@@ -146,8 +146,8 @@ For testing both customer and administrative functions, pre-seeded accounts with
 
 | Role | Email | Password | Access |
 |---|---|---|---|
-| **Administrator** | `admin@mithilamakhana.com` | `admin123` | Full Admin Dashboard, Product CRUD, Order Status Management, Recipes, Inquiries |
-| **Customer** | `customer@mithilamakhana.com` | `customer123` | Shopping, Checkout, Order Tracking, Saved Addresses, Wishlist |
+| **Administrator** | `rohitsahps309@gmail.com` | `admin123` | Full Admin Dashboard, Product CRUD, Order Status Management, Recipes, Inquiries |
+| **Customer** | `rohitsah00040004@gmail.com` | `customer123` | Shopping, Checkout, Order Tracking, Saved Addresses, Wishlist |
 
 ---
 

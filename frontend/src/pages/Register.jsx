@@ -10,7 +10,6 @@ import {
   Sparkles, 
   CheckCircle2, 
   ShieldCheck, 
-  Key, 
   RefreshCw 
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -27,7 +26,6 @@ const Register = () => {
   });
   const [otp, setOtp] = useState(['', '', '', '', '', '']);
   const [resendTimer, setResendTimer] = useState(0);
-  const [devOtpHint, setDevOtpHint] = useState(null);
   const [loading, setLoading] = useState(false);
   const [resending, setResending] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
@@ -94,9 +92,6 @@ const Register = () => {
       if (res.data?.success) {
         setStep('otp');
         setResendTimer(60);
-        if (res.data.devOtp) {
-          setDevOtpHint(res.data.devOtp);
-        }
         setInfoMsg(`A 6-digit verification code has been sent to ${formData.email}.`);
         success('Verification code sent to your email!');
 
@@ -177,9 +172,6 @@ const Register = () => {
 
       if (res.data?.success) {
         setResendTimer(60);
-        if (res.data.devOtp) {
-          setDevOtpHint(res.data.devOtp);
-        }
         success('New verification code sent to your email!');
         setInfoMsg('Fresh verification code sent. Please check your inbox or spam folder.');
       }
@@ -189,16 +181,6 @@ const Register = () => {
       toastError(msg);
     } finally {
       setResending(false);
-    }
-  };
-
-  // Auto-fill dev code helper
-  const handleAutoFillDevOtp = () => {
-    if (!devOtpHint) return;
-    const digits = devOtpHint.split('').slice(0, 6);
-    setOtp(digits);
-    if (otpInputsRef.current[5]) {
-      otpInputsRef.current[5].focus();
     }
   };
 
@@ -445,25 +427,6 @@ const Register = () => {
                 ⏱ Code expires in <strong>10 minutes</strong>. Single use only.
               </p>
             </div>
-
-            {/* Dev Mode Helper (Auto-fill pill when SMTP is not configured) */}
-            {devOtpHint && (
-              <div className="p-3 rounded-2xl bg-[#FEF8EA] border border-[#D99B26]/30 text-xs text-[#4A2E1B] flex items-center justify-between">
-                <div className="flex items-center space-x-2">
-                  <Key className="w-4 h-4 text-[#D99B26] flex-shrink-0" />
-                  <span>
-                    Dev Code: <strong className="font-mono text-sm tracking-wider">{devOtpHint}</strong>
-                  </span>
-                </div>
-                <button
-                  type="button"
-                  onClick={handleAutoFillDevOtp}
-                  className="px-2.5 py-1 text-[10px] font-bold rounded-lg bg-[#D99B26] text-white hover:bg-[#b07812] transition-colors cursor-pointer"
-                >
-                  Auto-Fill
-                </button>
-              </div>
-            )}
 
             {/* Resend Timer & Actions */}
             <div className="flex items-center justify-between text-xs pt-1">

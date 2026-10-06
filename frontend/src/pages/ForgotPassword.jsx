@@ -11,7 +11,6 @@ import {
   EyeOff, 
   RefreshCw, 
   ShieldCheck, 
-  Sparkles,
   AlertCircle 
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -31,7 +30,6 @@ const ForgotPassword = () => {
   const [loading, setLoading] = useState(false);
   const [resending, setResending] = useState(false);
   const [resendTimer, setResendTimer] = useState(0);
-  const [devOtpHint, setDevOtpHint] = useState(null);
   const [errorMsg, setErrorMsg] = useState('');
 
   const otpInputsRef = useRef([]);
@@ -87,9 +85,6 @@ const ForgotPassword = () => {
       if (res.data?.success) {
         setStep('otp');
         setResendTimer(60);
-        if (res.data.devOtp) {
-          setDevOtpHint(res.data.devOtp);
-        }
         success('Verification code sent to your email!');
       }
     } catch (err) {
@@ -111,9 +106,6 @@ const ForgotPassword = () => {
       const res = await forgotPassword({ email: email.trim().toLowerCase(), portal });
       if (res.data?.success) {
         setResendTimer(60);
-        if (res.data.devOtp) {
-          setDevOtpHint(res.data.devOtp);
-        }
         success('Fresh verification code sent to your email!');
       }
     } catch (err) {
@@ -424,27 +416,6 @@ const ForgotPassword = () => {
                 </button>
               </p>
             </div>
-
-            {/* Dev Preview Helper Badge */}
-            {devOtpHint && (
-              <div className="p-3 rounded-2xl bg-[#FEF8EA] border border-[#D99B26]/40 flex items-center justify-between text-xs text-[#B07812]">
-                <span className="flex items-center space-x-1.5">
-                  <Sparkles className="w-3.5 h-3.5" />
-                  <span>Dev Preview OTP: <strong>{devOtpHint}</strong></span>
-                </span>
-                <button
-                  type="button"
-                  onClick={() => {
-                    const digits = devOtpHint.split('').slice(0, 6);
-                    setOtp(digits);
-                    otpInputsRef.current[5]?.focus();
-                  }}
-                  className="px-2.5 py-1 rounded-lg bg-[#D99B26] text-white text-[10px] font-bold hover:bg-[#B07812]"
-                >
-                  Auto-fill
-                </button>
-              </div>
-            )}
 
             <form onSubmit={handleValidateOtp} className="space-y-5">
               <div>

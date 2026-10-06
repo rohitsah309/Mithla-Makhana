@@ -9,9 +9,7 @@ import {
   EyeOff, 
   AlertTriangle, 
   Key, 
-  Sparkles,
   ShoppingBag,
-  CheckCircle2,
   RefreshCw
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -66,12 +64,6 @@ const AdminLogin = () => {
       setLoading(false);
       console.error('Admin login error', err);
     }
-  };
-
-  const handleQuickAdminLogin = (demoEmail, demoPass) => {
-    setEmail(demoEmail);
-    setPassword(demoPass);
-    setAccessDeniedMsg('');
   };
 
   return (
@@ -232,31 +224,6 @@ const AdminLogin = () => {
                 )}
               </button>
             </form>
-
-            {/* Demo Fast Login Buttons */}
-            <div className="pt-4 border-t border-[#3D2516] space-y-2.5">
-              <div className="flex items-center justify-between text-[10px] uppercase tracking-wider text-[#8A6D56] font-bold">
-                <span>Demo Admin Credentials</span>
-                <span className="text-[#D99B26]">One-Click Fill</span>
-              </div>
-              
-              <button
-                type="button"
-                onClick={() => handleQuickAdminLogin('admin@mithilamakhana.com', 'admin123')}
-                className="w-full p-2.5 rounded-xl bg-[#1A0E08] hover:bg-[#321F12] border border-[#D99B26]/40 flex items-center justify-between text-xs text-[#FAF6F0] transition-colors cursor-pointer group"
-              >
-                <div className="flex items-center space-x-2">
-                  <ShieldCheck className="w-4 h-4 text-[#D99B26]" />
-                  <div className="text-left">
-                    <span className="font-bold block text-xs group-hover:text-[#F3BF58]">Super Administrator</span>
-                    <span className="font-mono text-[10px] text-[#8A6D56]">admin@mithilamakhana.com</span>
-                  </div>
-                </div>
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-[#3D2516] text-[#D8C3A5]">
-                  admin123
-                </span>
-              </button>
-            </div>
 
             {/* Switch to Customer Login */}
             <div className="text-center pt-2 text-xs text-[#A89078] border-t border-[#3D2516]/60">
